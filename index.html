@@ -1,86 +1,484 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Infovis</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background: #ffcfcf;
-    color: #232321;
-}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Leandro Hermann Sauer — Data Visualization</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&display=swap" rel="stylesheet">
+ 
+  <style>
+    /* ─── TOKENS ─────────────────────────────────────────────── */
+    :root {
+      --ease: cubic-bezier(.22,.68,0,1.2);
+      --ease-soft: cubic-bezier(.4,0,.2,1);
+    }
+ 
+    [data-theme="dark"] {
+      --bg:         #0b0c0f;
+      --bg2:        #111318;
+      --bg3:        #181b22;
+      --border:     #252830;
+      --text:       #e8eaf0;
+      --text-muted: #5c6070;
+      --text-dim:   #9099b0;
+      --accent:     #7effd4;
+      --accent2:    #ff6b6b;
+      --accent3:    #ffd166;
+      --glow:       rgba(126,255,212,.12);
+    }
+    [data-theme="light"] {
+      --bg:         #f4f3ef;
+      --bg2:        #eceae4;
+      --bg3:        #e2dfd8;
+      --border:     #d0cdc5;
+      --text:       #1a1c20;
+      --text-muted: #9b9890;
+      --text-dim:   #5a5850;
+      --accent:     #008a5e;
+      --accent2:    #d63a3a;
+      --accent3:    #b58a00;
+      --glow:       rgba(0,138,94,.08);
+    }
+ 
+    /* ─── RESET ──────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'DM Mono', monospace;
+      background: var(--bg);
+      color: var(--text);
+      transition: background .4s var(--ease-soft), color .4s var(--ease-soft);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+ 
+    /* ─── NOISE OVERLAY ──────────────────────────────────────── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+      opacity: .025;
+      pointer-events: none;
+      z-index: 9999;
+    }
+ 
+    /* ─── SCROLLBAR ──────────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+ 
+    /* ─── NAV ────────────────────────────────────────────────── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.2rem 2.5rem;
+      border-bottom: 1px solid transparent;
+      transition: border-color .3s, background .3s;
+    }
+    nav.scrolled {
+      border-color: var(--border);
+      background: color-mix(in srgb, var(--bg) 85%, transparent);
+      backdrop-filter: blur(12px);
+    }
+    .nav-logo {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800; font-size: .85rem;
+      letter-spacing: .18em; text-transform: uppercase;
+      color: var(--accent);
+    }
+    .theme-btn {
+      background: none;
+      color: var(--text-dim); cursor: pointer;
+      width: 34px; height: 34px; border-radius: 50%;
+      display: grid; place-items: center;
+      transition: color .2s, border-color .2s, background .2s;
+      font-size: .9rem;
+    }
+    .theme-btn:hover { color: var(--accent); border-color: var(--accent); background: var(--glow); }
+ 
+    /* ─── HERO ───────────────────────────────────────────────── */
+    .hero {
+      min-height: 100svh;
+      display: grid; grid-template-columns: 1fr 1fr;
+      padding: 5rem 2.5rem 0;
+      position: relative; overflow: hidden;
+    }
+    .hero-left {
+      display: flex; flex-direction: column; justify-content: center;
+      padding-right: 4rem;
+    }
+    .hero-eyebrow {
+      font-size: .7rem; letter-spacing: .22em; text-transform: uppercase;
+      color: var(--accent); margin-bottom: 1.5rem;
+      display: flex; align-items: center; gap: .75rem;
+    }
+    .hero-eyebrow::before {
+      content: ''; display: block; width: 28px; height: 1px;
+      background: var(--accent);
+    }
+    .hero-name {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(2.2rem, 5.5vw, 5rem);
+      font-weight: 300; line-height: 1.05; letter-spacing: -.02em;
+      margin-bottom: .4rem;
+    }
+    .hero-name em { font-style: italic; color: var(--accent); }
+    .hero-title {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(.9rem, 2vw, 1.3rem); font-weight: 600;
+      letter-spacing: .05em; color: var(--text-dim);
+      margin-bottom: 2rem; text-transform: uppercase;
+    }
+    .hero-desc {
+      font-size: .88rem; color: var(--text-dim);
+      max-width: 38ch; line-height: 1.9;
+    }
+ 
+    /* hero right */
+    .hero-right {
+      display: flex; align-items: center; justify-content: center;
+    }
+    .hero-canvas { width: 100%; aspect-ratio: 1; max-width: 500px; }
+    .hero-canvas svg { width: 100%; height: 100%; overflow: visible; }
+ 
+    /* scroll hint */
+    .scroll-hint {
+      position: absolute; bottom: 2rem; left: 2.5rem;
+      display: flex; align-items: center; gap: .75rem;
+      font-size: .65rem; letter-spacing: .2em; text-transform: uppercase;
+      color: var(--text-muted);
+    }
+    .scroll-hint::before {
+      content: ''; display: block; width: 1px; height: 40px;
+      background: linear-gradient(to bottom, transparent, var(--text-muted));
+    }
+ 
+    /* ─── SVG ANIMATIONS ─────────────────────────────────────── */
+    @keyframes float      { 0%,100%{transform:translateY(0)}  50%{transform:translateY(6px)} }
+    @keyframes spin-cw    { to { transform: rotate(360deg);  } }
+    @keyframes spin-ccw   { to { transform: rotate(-360deg); } }
+    @keyframes bar-grow   { from{transform:scaleY(0)} to{transform:scaleY(1)} }
+    @keyframes dot-pulse  { 0%,100%{opacity:.5} 50%{opacity:1} }
+    @keyframes line-draw  { from{stroke-dashoffset:400} to{stroke-dashoffset:0} }
+ 
+    .scroll-hint { animation: float 2.5s ease-in-out infinite; }
+ 
+    /* Orbit groups: translate so centre = SVG origin, then animate rotation */
+    .orbit-cw  {
+      transform-origin: 240px 240px;
+      animation: spin-cw  18s linear infinite;
+    }
+    .orbit-ccw {
+      transform-origin: 240px 240px;
+      animation: spin-ccw 12s linear infinite;
+    }
+ 
+    /* Bars: grow from bottom of each rect */
+    .bar { transform-box: fill-box; transform-origin: 50% 100%; animation: bar-grow .8s var(--ease) both; }
+    .b1{animation-delay:.40s} .b2{animation-delay:.55s}
+    .b3{animation-delay:.50s} .b4{animation-delay:.60s} .b5{animation-delay:.65s}
+ 
+    /* Dots */
+    .dot { animation: dot-pulse 2.5s ease-in-out infinite; }
+    .d1{animation-delay:.3s}  .d2{animation-delay:.6s}  .d3{animation-delay:.9s}
+    .d4{animation-delay:.2s}  .d5{animation-delay:.5s}  .d6{animation-delay:.8s}
+    .d7{animation-delay:1.0s}
+ 
+    /* Lines */
+    .ld { stroke-dasharray:400; stroke-dashoffset:400; animation: line-draw 1.8s var(--ease-soft) forwards; }
+    .l1{animation-delay:1.0s} .l2{animation-delay:1.3s}
+ 
+    /* ─── SECTION SHARED ─────────────────────────────────────── */
+    section { padding: 7rem 2.5rem; }
+ 
+    .section-label {
+      font-size: .65rem; letter-spacing: .25em; text-transform: uppercase;
+      color: var(--accent); margin-bottom: 3rem;
+      display: flex; align-items: center; gap: .75rem;
+    }
+    .section-label::after {
+      content: ''; flex: 1; height: 1px;
+      background: linear-gradient(to right, var(--border), transparent);
+      max-width: 120px;
+    }
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 300; line-height: 1.1; letter-spacing: -.02em;
+    }
+    h2 em { font-style: italic; color: var(--accent); }
+ 
+    /* ─── PROJECTS ───────────────────────────────────────────── */
+    .projects-header {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      margin-bottom: 4rem; flex-wrap: wrap; gap: 1.5rem;
+    }
+    .project-list { display: flex; flex-direction: column; }
+ 
+    .project-entry {
+      display: grid; grid-template-columns: 80px 1fr;
+      padding: 3rem 0;
+      width: 70vw;
+      margin:auto;
+    }
+    .project-entry:last-child { border-bottom: 1px solid var(--border); }
+ 
+    .project-meta {
+      padding-right: 2rem; padding-top: .25rem;
+      display: flex; flex-direction: column; gap: 1.5rem;
+    }
+    .project-num {
+      font-size: .65rem; letter-spacing: .2em;
+      color: var(--text-muted); font-family: 'DM Mono', monospace;
+    }
+ 
+    .project-body { display: flex; flex-direction: column; gap: 1.25rem; }
+ 
+    /* embed wrapper */
+    .project-embed {
+      width: 100%; 
+      background: var(--bg2); overflow: hidden;
+      margin-top: .5rem; position: relative;
+    }
 
-header {
-    text-align: center;
-    padding: 40px 20px;
-}
+    .embed-source {
+      display: inline-flex; align-items: center; gap: .4rem;
+      font-size: .6rem; letter-spacing: .12em; text-transform: uppercase;
+      color: var(--text-muted);
+      padding: .25rem .65rem; background: var(--bg2);
+      margin-bottom: .75rem; width: fit-content;
+    }
 
-h1 {
-    margin-bottom: 10px;
-}
-
-.container {
-    margin: auto;
-    padding: 20px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.card {
-    background: #e1e1e1;
-    border-radius: 10px;
-    padding: 20px;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-
-
-.card p {
-    color: #ccc;
-}
-
-.card a {
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
-    color: #dadcf0;
-    font-weight: bold;
-}
-</style>
+    .project-embed iframe,
+    .project-embed > div { display: block; width: 100%; border: none; }
+ 
+    /* ─── FOOTER ─────────────────────────────────────────────── */
+    footer {
+      padding: 2rem 2.5rem; border-top: 1px solid var(--border);
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: .65rem; letter-spacing: .1em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+ 
+    /* ─── RESPONSIVE ─────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.2rem; }
+      .hero { grid-template-columns: 1fr; min-height: auto; padding: 7rem 1.2rem 4rem; }
+      .hero-left { padding-right: 0; }
+      .hero-right { margin-top: 3rem; }
+      section { padding: 5rem 1.2rem; }
+      footer { flex-direction: column; gap: .75rem; text-align: center; }
+    }
+    @media (max-width: 700px) {
+      .project-entry { grid-template-columns: 1fr; gap: 1.5rem; }
+      .project-meta { flex-direction: row; flex-wrap: wrap; align-items: center; padding-right: 0; }
+    }
+  </style>
+</head>
+ 
 <body>
-<header>
-    <h1>Infovis</h1>
-    <p></p>
+ 
+<!-- ── NAV ── -->
+<nav id="nav">
+  <div class="nav-logo">LHS — Dataviz</div>
+  <button class="theme-btn" id="themeToggle" aria-label="Toggle colour theme">
+    <span id="themeIcon">☀</span>
+  </button>
+</nav>
+ 
+<!-- ── HERO ── -->
+<header class="hero" id="home">
+  <div class="hero-left">
+    <div class="hero-eyebrow">Data Scientist</div>
+    <h1 class="hero-name">Leandro<br><em>Hermann Sauer</em></h1>
+    <div class="hero-title">Information Visualization</div>
+    <p class="hero-desc">
+      Showcase for the Information Visualization class — ITBA Data Science Masters.
+    </p>
+  </div>
+ 
+  <div class="hero-right">
+    <div class="hero-canvas">
+      <svg viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+ 
+        <!-- Background guide rings -->
+        <circle cx="240" cy="240" r="200" stroke="var(--border)" stroke-width="1" stroke-dasharray="4 8"/>
+        <circle cx="240" cy="240" r="150" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 6"/>
+        <circle cx="240" cy="240" r="100" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 4"/>
+ 
+        <!--
+          Orbit rings
+          The group is translated so its geometric centre sits at (240,240).
+          CSS transform-origin: 240px 240px then rotates the group in place.
+          Dot coordinates are expressed relative to the group's local origin.
+        -->
+        <g class="orbit-cw">
+          <circle cx="240" cy="40"  r="5" fill="var(--accent)"  opacity=".6"/>
+          <circle cx="440" cy="240" r="3" fill="var(--accent2)" opacity=".5"/>
+          <circle cx="240" cy="440" r="4" fill="var(--accent3)" opacity=".5"/>
+          <circle cx="40"  cy="240" r="3" fill="var(--accent)"  opacity=".4"/>
+        </g>
+ 
+        <g class="orbit-ccw">
+          <circle cx="240" cy="90"  r="3" fill="var(--accent3)" opacity=".4"/>
+          <circle cx="390" cy="240" r="2" fill="var(--accent2)" opacity=".35"/>
+          <circle cx="240" cy="390" r="3" fill="var(--accent)"  opacity=".4"/>
+          <circle cx="90"  cy="240" r="2" fill="var(--accent3)" opacity=".35"/>
+        </g>
+ 
+        <!-- Bar chart cluster (baseline at local y=80) -->
+        <g transform="translate(130,280)">
+          <rect class="bar b1" x="0"  y="0"  width="16" height="80" fill="var(--accent)"  opacity=".9"  rx="1"/>
+          <rect class="bar b2" x="22" y="25" width="16" height="55" fill="var(--accent)"  opacity=".65" rx="1"/>
+          <rect class="bar b3" x="44" y="10" width="16" height="70" fill="var(--accent)"  opacity=".8"  rx="1"/>
+          <rect class="bar b4" x="66" y="40" width="16" height="40" fill="var(--accent3)" opacity=".7"  rx="1"/>
+          <rect class="bar b5" x="88" y="15" width="16" height="65" fill="var(--accent)"  opacity=".75" rx="1"/>
+          <line x1="0" y1="80" x2="110" y2="80" stroke="var(--border)" stroke-width="1"/>
+        </g>
+ 
+        <!-- Scatter plot cluster -->
+        <g transform="translate(280,130)">
+          <circle class="dot d1" cx="10" cy="60" r="4" fill="var(--accent2)" opacity=".8"/>
+          <circle class="dot d2" cx="35" cy="25" r="6" fill="var(--accent)"  opacity=".7"/>
+          <circle class="dot d3" cx="60" cy="45" r="3" fill="var(--accent3)" opacity=".75"/>
+          <circle class="dot d4" cx="80" cy="10" r="5" fill="var(--accent)"  opacity=".65"/>
+          <circle class="dot d5" cx="95" cy="55" r="4" fill="var(--accent2)" opacity=".7"/>
+          <circle class="dot d6" cx="20" cy="80" r="5" fill="var(--accent)"  opacity=".6"/>
+          <circle class="dot d7" cx="55" cy="75" r="3" fill="var(--accent3)" opacity=".65"/>
+        </g>
+ 
+        <!-- Line charts -->
+        <polyline class="ld l1"
+          points="80,320 110,290 145,305 180,260 215,270 245,235 280,248 315,215 350,225 380,195"
+          stroke="var(--accent)" stroke-width="2" fill="none" opacity=".7"/>
+        <polyline class="ld l2"
+          points="80,340 110,330 145,345 180,310 215,325 245,295 280,308 315,278 350,290 380,265"
+          stroke="var(--accent3)" stroke-width="1.5" fill="none" opacity=".4"/>
+ 
+        <!-- Centre emblem -->
+        <circle cx="240" cy="240" r="28" fill="var(--bg2)" stroke="var(--border)" stroke-width="1"/>
+        <circle cx="240" cy="240" r="24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 5" opacity=".6"/>
+        <text x="240" y="237" text-anchor="middle" font-family="'Syne',sans-serif"
+              font-size="8" font-weight="800" fill="var(--accent)" letter-spacing="2">DATA</text>
+        <text x="240" y="250" text-anchor="middle" font-family="'Syne',sans-serif"
+              font-size="7" font-weight="400" fill="var(--text-dim)" letter-spacing="1">VIZ</text>
+      </svg>
+    </div>
+  </div>
+ 
+  <div class="scroll-hint">Scroll</div>
 </header>
-
-    <div class="container">
-    <div ">
-
-        <div class="card">
-            <h3>Titulo 1</h3>
-            <object type="image/svg+xml" data="./horizon.svg"></object>
-        </div>
-
-        <div class="card">
-            <h3>Titulo 2</h3>
-        <div class="flourish-embed flourish-chart" data-src="visualisation/27942375"><script src="https://public.flourish.studio/resources/embed.js"></script>
-        </div>
-
-        <div class="card">
-            <h3>Titulo 3</h3>
-            <div style="min-height:448px" id="datawrapper-vis-M3Vgn"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/M3Vgn/embed.js" charset="utf-8" data-target="#datawrapper-vis-M3Vgn"></script><noscript><img src="https://datawrapper.dwcdn.net/M3Vgn/full.png" alt="Pizza Toppings Choices Per Gender (Range Plot)" /></noscript></div>
-        </div>
-
-        <div class="card">
-        </div>
-
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="projects-header ">
+    <div>
+      <div class="section-label"></div>
+      <h2><em>Visualizations</em></h2>
     </div>
-</div>
-    </div>
+  </div>
+ 
+  <div class="project-list ">
+ 
+    <!-- ─ Project 01: Pizza Toppings ─ -->
+    <article class="project-entry">
+      <div class="project-meta">
+        <span class="project-num">01</span>
+
+      </div>
+      <div class="project-body">
+        <h3 class="project-title"></h3>
+        <div class="embed-source">Datawrapper</div>
+        <div class="project-embed">
+          <div style="min-height:448px" id="datawrapper-vis-M3Vgn">
+            <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/M3Vgn/embed.js" charset="utf-8" data-target="#datawrapper-vis-M3Vgn"></script>
+            <noscript><img src="https://datawrapper.dwcdn.net/M3Vgn/full.png" alt="Pizza Toppings Choices Per Gender (Range Plot)" style="width:100%"/></noscript>
+          </div>
+        </div>
+      </div>
+    </article>
+ 
+    <!-- ─ Project 02: Flourish Chart ─ -->
+    <article class="project-entry">
+      <div class="project-meta">
+        <span class="project-num">02</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title"></h3>
+        <div class="embed-source">Flourish Studio</div>
+        <div class="project-embed">
+          <div class="flourish-embed flourish-chart" data-src="visualisation/27942375">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript><img src="https://public.flourish.studio/visualisation/27942375/thumbnail" width="100%" alt="visualization" /></noscript>
+          </div>
+        </div>
+      </div>
+    </article>
+ 
+  </div>
+</section>
+ 
+
+
+<!-- ── FOOTER ── -->
+<footer>
+  <span>© 2026 Leandro Hermann Sauer</span>
+  <span>Data Scientist · Information Visualization</span>
+  <span>Buenos Aires, Argentina</span>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  // Theme toggle
+  const themeToggle = document.getElementById('themeToggle');
+  const themeIcon   = document.getElementById('themeIcon');
+  const html        = document.documentElement;
+ 
+  themeToggle.addEventListener('click', () => {
+    const isDark = html.dataset.theme === 'dark';
+    html.dataset.theme = isDark ? 'light' : 'dark';
+    themeIcon.textContent = isDark ? '☽' : '☀';
+  });
+ 
+  // Nav on scroll
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  });
+ 
+  // Intersection Observer for fade-up
+  const fadeEls = document.querySelectorAll('.fade-up');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); }
+    });
+  }, { threshold: 0.08 });
+  fadeEls.forEach(el => observer.observe(el));
+ 
+  // Skill bars animation
+  const barFills = document.querySelectorAll('.skill-bar-fill');
+  const barObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('animated'); }
+    });
+  }, { threshold: 0.5 });
+  barFills.forEach(el => barObserver.observe(el));
+  // Experience tab switching
+  const navItems    = document.querySelectorAll('.exp-nav-item');
+  const expContents = document.querySelectorAll('.exp-content');
+  navItems.forEach(item => {
+    item.addEventListener('click', () => {
+      const idx = item.dataset.exp;
+      navItems.forEach(i => i.classList.remove('active'));
+      expContents.forEach(c => c.classList.remove('active'));
+      item.classList.add('active');
+      document.getElementById('exp-' + idx).classList.add('active');
+    });
+  });
+</script>
+    
 </body>
 </html>
