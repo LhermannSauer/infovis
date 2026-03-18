@@ -1,23 +1,59 @@
 import requests
+import os 
+from dotenv import load_dotenv
+import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import pandas as pd
 
-client_id = "dd8d1b00e817485686a843374e31824c"
-client_secret = "6bbe03a196574438be86e526879bb2b7"
 
-# Get token
-auth = requests.post(
-    "https://accounts.spotify.com/api/token",
-    data={"grant_type": "client_credentials"},
-    auth=(client_id, client_secret)
-)
-print(auth.json())
-token = auth.json()["access_token"]
+load_dotenv()
 
-# Use token
-headers = {"Authorization": f"Bearer {token}"}
-print(headers)
-r = requests.get(
-    "https://api.spotify.com/v1/audio-features/11dFghVXANMlKmJXsNCbNl",
-    headers=headers
-)
+RECCO_KEY = os.getenv('ROCCO_KEY')
 
-print(r.json())
+BASE_URL = "https://api.reccobeats.com/v1/track/id:{}/audio-features"
+
+
+def get_track_audio_features(track_id, session):
+    headers = {"Authorization": f"Bearer {RECCO_KEY}"}
+
+    try:
+        r = session.get(BASE_URL.format(track_id), headers=headers, timeout=10)
+
+        if r.status_code == 200:
+            data = r.json()
+
+            return {
+                "track_id": track_id,
+                "danceability": data["content"]["danceability"],
+                "energy": data["content"]["energy"],
+                "tempo": data["content"]["tempo"],
+                "valence": data["content"]["valence"]
+            }
+
+        else:
+            return {"track_id": track_id, "error": r.status_code}
+
+    except Exception as e:
+        return {"track_id": track_id, "error": str(e)}
+
+
+def get_multiple_tracks(track_ids, max_workers=10):
+
+    results = []
+
+    with requests.Session() as session:
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+
+            futures = {
+                executor.submit(get_track_audio_features, tid, session): tid
+                for tid in track_ids
+            }
+
+            for future in as_completed(futures):
+                results.append(future.result())
+
+    return results
+
+tracks = pd.read_csv("../data/track_ids.csv")
+
+df = pd.DataFrame(get_multiple_tracks(tracks['tracks']))
