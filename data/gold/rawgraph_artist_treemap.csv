@@ -1,0 +1,2295 @@
+genre,artist,play_count,total_minutes
+Alternative Metal,Deftones,100,292.5
+Alternative Rock,A Perfect Circle,77,148.3
+Alternative Rock,Beck,5,7.6
+Alternative Rock,Blind Melon,499,1191.3
+Alternative Rock,Cage The Elephant,95,154.8
+Alternative Rock,Dredg,6,16.0
+Alternative Rock,Foo Fighters,204,688.1
+Alternative Rock,Linkin Park,763,1771.5
+Alternative Rock,Muse,3093,10562.1
+Alternative Rock,Pixies,10,22.1
+Alternative Rock,Placebo,442,1060.3
+Alternative Rock,Poets of the Fall,680,1692.0
+Alternative Rock,Radiohead,682,1827.6
+Alternative Rock,Red Hot Chili Peppers,481,1760.3
+Alternative Rock,Royal Blood,42,110.3
+Alternative Rock,The Rasmus,1411,3177.3
+Alternative Rock,The Smashing Pumpkins,71,171.6
+Alternative Rock,Thirty Seconds To Mars,1712,4427.3
+Blues,B.B. King,23,78.4
+Classic Rock,AC/DC,85,259.1
+Classic Rock,Aerosmith,289,993.4
+Classic Rock,Black Sabbath,54,162.0
+Classic Rock,Blue Öyster Cult,12,46.0
+Classic Rock,Bon Jovi,288,1043.2
+Classic Rock,David Bowie,53,182.4
+Classic Rock,Deep Purple,41,102.4
+Classic Rock,Fleetwood Mac,11,31.0
+Classic Rock,Foreigner,11,33.4
+Classic Rock,Guns N' Roses,289,1226.1
+Classic Rock,Iggy Pop,8,21.8
+Classic Rock,Led eppelin,144,594.2
+Classic Rock,Lenny Kravit,580,1655.4
+Classic Rock,Poison,9,18.4
+Classic Rock,Queen,1462,4715.7
+Classic Rock,Scorpions,9,31.0
+Classic Rock,The Beatles,135,232.0
+Classic Rock,The Rolling Stones,144,347.1
+Classic Rock,The Who,11,32.8
+Classical,Frédéric Chopin,760,2304.9
+Classical,Johann Sebastian Bach,92,237.8
+Classical,Ludwig van Beethoven,37,225.2
+Classical,Wolfgang Amadeus Moart,41,208.2
+Doom Metal,Saturnus,5,8.1
+Electronic,Aquilo,16,39.9
+Electronic,Boards of Canada,8,13.1
+Electronic,Boy Epic,7,22.7
+Electronic,Chet Faker,90,334.6
+Electronic,Daft Punk,40,152.3
+Electronic,Depeche Mode,608,2005.4
+Electronic,Hurts,297,644.2
+Electronic,IAMX,1373,3486.9
+Electronic,M83,13,26.4
+Electronic,Magic Sword,18,83.1
+Electronic,Major Laer,10,12.6
+Electronic,Oneohtrix Point Never,7,11.6
+Electronic,Skrillex,39,147.7
+Electronic,The Prodigy,5,11.8
+Electronic,Tiësto,9,33.6
+Electronic,Trent Renor,20,85.4
+Grunge,Alice In Chains,138,413.4
+Grunge,Chris Cornell,377,954.1
+Grunge,Nirvana,484,1345.1
+Grunge,Pearl Jam,251,967.2
+Grunge,Soundgarden,172,601.2
+Hard Rock,Adema,9,18.1
+Hard Rock,Alter Bridge,311,1145.9
+Hard Rock,Avenged Sevenfold,2229,8557.6
+Hard Rock,Breaking Benjamin,78,213.4
+Hard Rock,Disturbed,48,162.5
+Hard Rock,Ends With A Bullet,10,7.9
+Hard Rock,Evanescence,176,483.3
+Hard Rock,Godsmack,27,46.8
+Hard Rock,Hoobastank,24,52.0
+Hard Rock,KISS,6,21.8
+Hard Rock,Saliva,70,205.9
+Hard Rock,Seether,210,536.7
+Hard Rock,Shinedown,3616,9057.5
+Hard Rock,Three Days Grace,302,605.9
+Hard Rock,Van Halen,11,26.6
+Hip Hop,Eminem,363,1160.6
+Hip Hop,Kanye West,6,14.3
+Hip Hop,Kendrick Lamar,11,19.4
+Hip Hop,Post Malone,9,18.5
+Hip Hop,Will Smith,6,19.6
+Indie Rock,Arcade Fire,23,65.7
+Indie Rock,Arctic Monkeys,934,2102.7
+Indie Rock,Elliott Smith,58,70.0
+Indie Rock,Fran Ferdinand,20,54.4
+Indie Rock,Interpol,83,206.5
+Indie Rock,Kasabian,33,86.1
+Indie Rock,Keane,33,93.8
+Indie Rock,Oasis,224,745.1
+Indie Rock,Sam Fender,7,9.1
+Indie Rock,Supergrass,12,23.4
+Indie Rock,The Killers,183,496.4
+Indie Rock,Travis,31,82.0
+Jazz,Tony Bennett,10,28.3
+Latin Folk,Facundo Toro,27,78.3
+Latin Folk,Onda Vaga,14,23.6
+Latin Pop,Abel Pintos,15,46.4
+Latin Pop,Alejandro San,32,135.6
+Latin Pop,Ricky Martin,10,24.9
+Latin Pop,Romeo Santos,7,22.5
+Latin Pop,Thalia,5,12.7
+Latin Rock,Barco,48,88.5
+Latin Rock,Bersuit Vergarabat,139,435.4
+Latin Rock,Ciro y los Persas,22,94.0
+Latin Rock,Connor Questa,21,55.0
+Latin Rock,Eruca Sativa,343,632.6
+Latin Rock,Fito Pae,1354,3689.8
+Latin Rock,Gustavo Cerati,396,1417.3
+Latin Rock,JAF,6,26.1
+Latin Rock,La Renga,44,80.3
+Latin Rock,Las Pastillas del Abuelo,6,14.1
+Latin Rock,No Te Va Gustar,131,441.3
+Latin Rock,Patricio Rey y sus Redonditos de Ricota,114,271.4
+Latin Rock,Pork,305,1181.9
+Latin Rock,Soda Stereo,358,1120.1
+Latin Rock,ambayonny,7,6.1
+Metal,Arch Enemy,13,21.5
+Metal,Bring Me The Horion,21,65.0
+Metal,Children Of Bodom,164,440.4
+Metal,Ghost,30,108.0
+Metal,In This Moment,699,1505.7
+Metal,Iron Maiden,332,1310.6
+Metal,Korn,244,559.6
+Metal,Lindemann,19,44.3
+Metal,Megadeth,430,1324.4
+Metal,Metallica,490,1997.9
+Metal,Slipknot,295,854.6
+Metal,System Of A Down,315,766.2
+Other, Top,43,131.4
+Other,"""Weird Al"" Yankovic",14,11.6
+Other,*NSYNC,164,480.4
+Other,10 Years,970,2552.5
+Other,12 Stones,21,36.4
+Other,3,25,79.8
+Other,3 Doors Down,167,389.9
+Other,311,23,32.5
+Other,38th Army Band,13,34.1
+Other,4 Non Blondes,5,20.1
+Other,44,19,26.2
+Other,5 Seconds of Summer,281,790.7
+Other,65daysofstatic,5,12.5
+Other,A Day To Remember,28,60.2
+Other,A Flock Of Seagulls,9,16.7
+Other,A Great Big World,6,5.7
+Other,A Life Divided,18,12.1
+Other,A Lot Like Birds,14,33.1
+Other,A Perfect Circle,364,791.5
+Other,A.L.I.S.O.N,6,22.7
+Other,ABBA,42,44.3
+Other,ABC,16,40.0
+Other,AC/DC,107,316.3
+Other,AFI,116,305.9
+Other,AFROJACK,38,104.8
+Other,ANGRA,27,48.9
+Other,ASTERISM,9,21.4
+Other,AURORA,506,1385.8
+Other,AWOLNATION,204,621.4
+Other,AYN,26,58.0
+Other,Abel Pintos,17,47.7
+Other,Abigail's Ghost,37,88.5
+Other,Ace of Base,6,16.9
+Other,Acid Dad,6,15.8
+Other,Active Bird Community,5,10.2
+Other,Adam Lambert,9,27.9
+Other,Adam Levine,42,162.8
+Other,Adara,16,30.8
+Other,Adele,70,248.4
+Other,Adelitas Way,15,26.2
+Other,Adicta,5,11.4
+Other,Adrenaline Mob,82,76.8
+Other,Aeon en,257,454.6
+Other,Aerosmith,312,1079.2
+Other,Aesthetic Perfection,6,20.6
+Other,After Forever,17,27.0
+Other,Agent Fresco,51,142.2
+Other,Agnes Obel,15,35.3
+Other,Air,7,22.7
+Other,Air Formation,27,46.9
+Other,Airbag,235,1222.5
+Other,Aitana,7,20.9
+Other,Akon,9,25.3
+Other,Akord,8,19.0
+Other,Alan Silvestri,98,255.3
+Other,Alanis Morissette,15,41.2
+Other,Alcest,36,195.5
+Other,Alec Benjamin,55,124.3
+Other,Alejandro San,21,84.0
+Other,Alessia Cara,14,29.8
+Other,Alex Turner,107,215.3
+Other,Alexander Scriabin,12,41.0
+Other,Alexandre Desplat,23,55.2
+Other,Alfie Arcuri,34,63.2
+Other,Alfredo Casero,7,14.0
+Other,Alice Cooper,27,51.6
+Other,Alice In Chains,190,627.1
+Other,Alice Kristiansen,13,19.5
+Other,Alicia Keys,24,56.0
+Other,Alien Ant Farm,22,55.2
+Other,Alkaline Trio,51,72.4
+Other,All That Remains,20,39.6
+Other,All Time Low,31,76.1
+Other,Allie X,15,29.1
+Other,Almafuerte,8,10.3
+Other,Almendra,26,42.4
+Other,Alphaville,13,38.2
+Other,Alter Bridge,299,956.3
+Other,Altered Images,12,26.0
+Other,Alx Child,6,15.1
+Other,Amaranthe,20,39.5
+Other,Amber Run,28,70.4
+Other,American Authors,6,7.7
+Other,Amon Amarth,17,31.4
+Other,Amorphis,33,108.4
+Other,Amplifier,35,117.1
+Other,Amy Lee,10,16.6
+Other,Amy Winehouse,104,367.3
+Other,An Endless Sporadic,7,2.8
+Other,Anathema,501,1295.4
+Other,Anberlin,69,148.3
+Other,Andrea Bocelli,5,13.2
+Other,Andreas Johnson,5,7.0
+Other,Andrew Latimer,5,19.0
+Other,Andrés Calamaro,646,2270.0
+Other,Andy Grammer,6,10.3
+Other,Andy James,6,7.8
+Other,Andy Timmons,5,25.7
+Other,Anekdoten,19,60.1
+Other,Anette Olon,13,14.7
+Other,Angel Vivaldi,6,14.2
+Other,Angels & Airwaves,119,401.3
+Other,Angèle,18,27.7
+Other,Animals As Leaders,42,90.9
+Other,Anneke Van Giersbergen,9,22.0
+Other,Annie Lennox,6,23.1
+Other,Anson Seabra,17,54.2
+Other,Anthrax,11,15.2
+Other,Anti-Flag,16,18.9
+Other,Antimatter,116,350.5
+Other,Antonio Lauro,6,8.9
+Other,Antonio Soler,10,41.9
+Other,Antonio Vivaldi,192,372.3
+Other,Aphex Twin,5,16.4
+Other,Apocalyptica,253,534.9
+Other,April Rain,55,158.4
+Other,Aqua,6,17.7
+Other,Aram Mandossian,6,17.6
+Other,Aranda,6,12.3
+Other,Arbolito,6,7.8
+Other,Arcade Fire,22,54.8
+Other,Arcane,6,14.7
+Other,Arcane Roots,10,22.4
+Other,Arch Echo,5,18.6
+Other,Arch Enemy,38,85.6
+Other,Architects,46,56.4
+Other,Archive,28,73.8
+Other,Arctic Monkeys,1102,2750.6
+Other,Arde la Sangre,61,183.6
+Other,Arena,26,77.6
+Other,Aretha Franklin,8,13.6
+Other,Ari Koivunen,13,54.6
+Other,Ariana Grande,1014,2310.5
+Other,Armen Hambar,7,18.4
+Other,Art Of Dying,10,32.3
+Other,Artifex Pereo,15,39.4
+Other,As Tall As Lions,18,60.5
+Other,Ashbury Heights,8,31.3
+Other,Ashe,89,207.9
+Other,Ashes Of Soma,16,10.6
+Other,Asia,12,31.5
+Other,Asking Alexandria,10,9.5
+Other,Askjell,14,40.9
+Other,Asspera,14,10.4
+Other,Astor Piaolla,118,483.3
+Other,Astrid S,10,25.3
+Other,At The Gates,8,12.6
+Other,At Vance,18,24.6
+Other,Aterciopelados,5,12.1
+Other,Atomic Kitten,8,21.2
+Other,Atreyu,8,14.0
+Other,Attaque 77,122,178.0
+Other,Au/Ra,5,8.6
+Other,Audio,6,21.3
+Other,Audioslave,1064,3587.9
+Other,Auri,16,54.0
+Other,Author,19,59.8
+Other,Automatic Loveletter,178,259.4
+Other,Avantasia,94,262.8
+Other,Avenged Sevenfold,1280,5352.3
+Other,Avicii,52,203.2
+Other,Avril Lavigne,34,74.6
+Other,Axel,24,70.4
+Other,Axel Flóvent,7,15.2
+Other,Ayreon,179,539.2
+Other,B.B. King,6,15.3
+Other,BANNERS,17,38.6
+Other,BLOKHE4D,10,22.9
+Other,BONSER,5,7.8
+Other,BROODS,13,17.6
+Other,Babasonicos,185,368.4
+Other,Babasónicos,12,30.6
+Other,Babyshambles,18,19.3
+Other,Backstreet Boys,92,308.0
+Other,Bad Company,6,10.2
+Other,Bad Suns,6,13.8
+Other,Bad Wolves,6,14.0
+Other,Badflower,7,14.9
+Other,Bai,6,11.4
+Other,Balmorhea,18,59.8
+Other,Bananarama,7,20.0
+Other,Band of Horses,8,13.0
+Other,Banda de Turistas,16,19.0
+Other,Bandana,5,13.9
+Other,Barco,40,63.6
+Other,Barenaked Ladies,7,9.7
+Other,Barns Courtney,6,18.6
+Other,Baroness,10,27.4
+Other,Barry White,5,8.8
+Other,Basement,11,19.6
+Other,Bass Communion,10,73.1
+Other,Bassnectar,5,12.8
+Other,Bastille,46,103.4
+Other,Be Forest,11,32.1
+Other,Beach House,8,16.2
+Other,Bear McCreary,85,210.8
+Other,Bear's Den,8,25.2
+Other,Beardfish,46,148.7
+Other,Beastie Boys,9,12.5
+Other,Beau + Luci,29,62.4
+Other,Bebe Rexha,7,8.3
+Other,Beck,6,12.8
+Other,Becky G,5,9.8
+Other,Bee Gees,26,78.0
+Other,Ben E. King,6,7.4
+Other,Ben Folds Five,7,20.4
+Other,Ben Howard,110,331.2
+Other,Ben Platt,21,63.6
+Other,Benjamin Francis Leftwich,5,1.7
+Other,Bent Knee,15,45.8
+Other,Berlin,7,15.6
+Other,Berlinist,14,30.1
+Other,Bernadette Boulet,9,2.8
+Other,Bersuit Vergarabat,100,303.5
+Other,Bestia Bebé,24,12.6
+Other,Between The Buried And Me,65,135.7
+Other,Beyoncé,10,27.0
+Other,Biba Dupont,6,3.4
+Other,Biffy Clyro,60,144.3
+Other,Big Big Train,120,337.3
+Other,Bil Cutie,6,5.4
+Other,Bill Conti,15,28.0
+Other,Bill Withers,10,20.9
+Other,Billie Eilish,2116,5901.9
+Other,Billie Marten,13,39.6
+Other,Billy Idol,76,239.8
+Other,Billy Joel,25,35.1
+Other,Billy Ocean,11,40.8
+Other,Billy Talent,15,35.8
+Other,Birds Of Tokyo,29,53.6
+Other,Birdy,81,167.7
+Other,Bishop Briggs,8,23.2
+Other,Björk,49,129.0
+Other,Bjørn Riis,22,64.6
+Other,Black Country Communion,23,91.6
+Other,Black Eyed Peas,24,69.0
+Other,Black Label Society,51,148.0
+Other,Black Rebel Motorcycle Club,6,13.6
+Other,Black Sabbath,36,131.3
+Other,Black Stone Cherry,12,33.2
+Other,Black Sun Empire,8,20.7
+Other,Black Veil Brides,16,55.4
+Other,Blackfield,1179,3131.9
+Other,Blacktop Mojo,71,215.0
+Other,Blake Shelton,5,18.5
+Other,Blanco White,8,27.7
+Other,Bleachers,5,16.4
+Other,Blind Ego,38,156.1
+Other,Blind Guardian,14,40.4
+Other,Blind Melon,719,1692.9
+Other,Bloc Party,21,45.3
+Other,Blondie,10,17.4
+Other,Blue October,38,103.8
+Other,Blue Öyster Cult,18,38.9
+Other,Blur,127,243.7
+Other,Blutengel,5,4.0
+Other,Boards of Canada,18,35.1
+Other,Bob Dylan,12,37.7
+Other,Bob Marley & The Wailers,47,147.6
+Other,Bomba Estéreo,6,8.9
+Other,Bombay Bicycle Club,5,11.8
+Other,Bon Iver,9,23.5
+Other,Bon Jovi,446,1593.8
+Other,Bonnie Tyler,9,29.8
+Other,Borislav Slavov,6,14.4
+Other,Boston,22,95.0
+Other,Bowling For Soup,6,13.5
+Other,Box Car Racer,62,130.2
+Other,Boy Epic,11,37.7
+Other,Boy II Men,18,61.0
+Other,Boy In Space,6,13.5
+Other,Boyce Avenue,119,156.2
+Other,Brandon Flowers,19,59.6
+Other,Breaking Benjamin,65,156.3
+Other,Breed 77,60,147.2
+Other,Brendan Benson,7,19.7
+Other,Brian May,6,8.3
+Other,Brian Tyler,17,31.2
+Other,Bring Me The Horion,8,14.2
+Other,Britney Spears,115,281.3
+Other,Broken Iris,18,24.9
+Other,Bruce Dickinson,19,48.0
+Other,Bruce Soord,23,77.4
+Other,Bruce Springsteen,18,35.0
+Other,Bruno Major,9,18.7
+Other,Bruno Mars,29,67.2
+Other,Bryan Adams,194,688.8
+Other,Bryan Ferry,9,30.6
+Other,Buckcherry,8,20.5
+Other,Buckethead,18,14.4
+Other,Bullet For My Valentine,77,163.4
+Other,Bunbury,40,127.8
+Other,Burum,9,5.4
+Other,Bush,71,212.9
+Other,Butcher Babies,5,11.8
+Other,Butterfly Tea,5,0.1
+Other,BØRNS,14,37.0
+Other,Böhse Onkel,14,1.8
+Other,C21fx,14,5.2
+Other,CAKE,13,28.7
+Other,CHVRCHES,5,5.1
+Other,CKY,5,10.9
+Other,Cab Calloway,5,7.3
+Other,Cabeones,11,11.4
+Other,Cacho Castaña,7,11.4
+Other,Cacophony,9,72.7
+Other,Cafe Music BGM channel,39,107.4
+Other,Café Tacvba,10,18.0
+Other,Cage The Elephant,62,85.2
+Other,Cain's Offering,36,130.2
+Other,Caligula's Horse,255,903.7
+Other,Callejeros,7,15.7
+Other,Calum Scott,20,31.6
+Other,Calvin Harris,24,61.9
+Other,Calyx,7,1.7
+Other,Calyx & TeeBee,5,3.4
+Other,Camel,7,33.7
+Other,Camila,6,2.5
+Other,Camila Cabello,106,291.2
+Other,Campedrinos,34,108.5
+Other,Canyon City,10,20.4
+Other,Capital Cities,8,22.6
+Other,Carajo,431,1343.8
+Other,Cardi B,5,21.1
+Other,Carina Dahl,5,17.0
+Other,Carlos Di Fulvio,5,16.6
+Other,Carlos Gardel,7,9.2
+Other,Carlos Vives,6,13.3
+Other,Carlton Rimor,6,0.0
+Other,Carluccio,6,0.0
+Other,Carly Rae Jepsen,9,24.2
+Other,Carter Burwell,7,9.0
+Other,Catfish and the Bottlemen,8,24.5
+Other,Catupecu Machu,340,940.1
+Other,Cavetown,8,22.6
+Other,Celia Cru,7,4.1
+Other,Celldweller,5,22.7
+Other,Ceterum,6,25.3
+Other,Chad Lawson,6,18.1
+Other,Chaka Khan,9,40.1
+Other,Chappell Roan,7,13.1
+Other,Chaqueño Palavecino,70,156.3
+Other,Charli xcx,26,38.6
+Other,Charlie Puth,38,70.7
+Other,Charlotte Lawrence,23,59.6
+Other,Charly García,325,818.4
+Other,Charon,6,14.0
+Other,Chase Atlantic,7,12.2
+Other,Cheap Trick,49,105.3
+Other,Cher,9,26.9
+Other,Cher Lloyd,5,14.9
+Other,Chet Faker,78,275.7
+Other,Chevelle,144,414.0
+Other,Chick Corea,6,14.9
+Other,Children Of Bodom,146,380.5
+Other,Chloe Adams,9,20.2
+Other,Chon,115,234.8
+Other,Chris Cornell,974,2858.8
+Other,Chris Isaak,24,56.0
+Other,Christian Leave,14,24.6
+Other,Christina Aguilera,11,20.4
+Other,Christina Perri,13,40.6
+Other,Christophe Beck,16,0.2
+Other,Christopher Drake,6,9.0
+Other,Chroma Key,44,117.5
+Other,Chronologist,9,36.0
+Other,Chuck Berry,5,7.8
+Other,Chumbawamba,8,7.4
+Other,Ciara,24,58.6
+Other,Ciaran Lavery,5,4.5
+Other,Cielo Rao,16,26.1
+Other,Cigarettes After Sex,90,318.4
+Other,Cinema Biarre,6,3.7
+Other,Circa Survive,60,132.2
+Other,Circle Jerks,10,0.0
+Other,Circles,7,24.5
+Other,Circus Maximus,47,160.2
+Other,Ciro y los Persas,25,108.6
+Other,Clairo,8,16.0
+Other,Claude Bolling,34,125.0
+Other,Claude Debussy,83,297.8
+Other,Clean Bandit,5,11.1
+Other,Cliff Lin,7,7.6
+Other,Clint Mansell,28,84.8
+Other,Closure in Moscow,567,1674.0
+Other,Coal Chamber,10,14.9
+Other,Coheed and Cambria,15,60.4
+Other,Coiffeur,18,27.5
+Other,Coil,6,37.3
+Other,Cold,46,141.8
+Other,Cold War Kids,7,17.3
+Other,Coldplay,186,704.8
+Other,Collective Soul,8,32.4
+Other,Comet Blue,5,0.4
+Other,Conan Gray,44,96.9
+Other,Connor Questa,8,21.2
+Other,Coolio,6,9.7
+Other,Copeland,6,18.7
+Other,Corey Taylor,30,63.2
+Other,Cornelia Mooswalder,13,17.6
+Other,Corner Stone Cues,5,0.6
+Other,Counting Crows,23,86.4
+Other,Craig Armstrong,13,34.6
+Other,Cray Frog,13,16.3
+Other,Cray Town,7,7.8
+Other,Cream,11,20.6
+Other,Creed,19,52.6
+Other,Creedence Clearwater Revival,34,76.0
+Other,Crippled Black Phoenix,8,13.4
+Other,Cristin Milioti,7,9.7
+Other,Crossfade,14,30.2
+Other,Crowded House,15,41.3
+Other,Crown The Empire,15,28.3
+Other,Culture Club,16,28.9
+Other,Cutting Crew,25,97.9
+Other,Cyndi Lauper,31,88.9
+Other,Cypress Hill,17,47.5
+Other,Céline Dion,13,56.3
+Other,D'Artagnan,28,26.3
+Other,DAF,7,5.2
+Other,DEVO,9,18.0
+Other,DJ Hidden,14,33.5
+Other,DNCE,8,19.5
+Other,Daddy Yankee,14,40.0
+Other,Daft Punk,165,669.7
+Other,Damas Gratis,5,17.4
+Other,Damien Rice,20,34.4
+Other,Dan Swanö,8,0.5
+Other,Dance Gavin Dance,6,25.0
+Other,Dancing Mood,5,0.7
+Other,Daniel Cavanagh,24,90.6
+Other,Daniel Piaolla Octet,29,8.1
+Other,Daniella Babbitt,5,0.0
+Other,Danny Elfman,103,259.7
+Other,Dario Marianelli,148,288.7
+Other,Dark Tranquillity,15,34.2
+Other,Daron Malakian and Scars On Broadway,11,17.4
+Other,Daryl Griffith,6,12.0
+Other,Daryl Hall & John Oates,46,129.3
+Other,Dashboard Confessional,10,25.3
+Other,Datsik,9,16.0
+Other,Daughter,42,102.5
+Other,Daughtry,46,125.2
+Other,Dave Weckl,5,16.8
+Other,David Bowie,76,271.1
+Other,David Gilmour,41,155.8
+Other,David Guetta,7,20.8
+Other,David Hewson,6,9.3
+Other,David Maxim Micic,12,24.6
+Other,David Phelps,8,15.7
+Other,Daya,6,13.4
+Other,Dead By Sunrise,149,292.6
+Other,Dead Letter Circus,21,57.8
+Other,Dead Or Alive,38,92.4
+Other,Dead Sara,12,14.2
+Other,Deaf Havana,5,4.5
+Other,Dean Lewis,21,46.0
+Other,Death,12,17.0
+Other,Death Cab for Cutie,31,78.5
+Other,Decyfer Down,21,41.4
+Other,Deee-Lite,5,15.4
+Other,Deep Blue Something,6,17.3
+Other,Deep Purple,71,162.0
+Other,Def Leppard,31,125.1
+Other,Default,51,101.5
+Other,Deftones,70,221.0
+Other,Delain,63,218.6
+Other,Demi Lovato,32,67.0
+Other,Demians,181,542.3
+Other,Demon Hunter,5,19.6
+Other,Depeche Mode,368,1169.7
+Other,Dermot Kennedy,18,46.6
+Other,Destiny Potato,219,406.9
+Other,Destiny's Child,14,30.9
+Other,Device,51,140.7
+Other,DevilDriver,6,17.5
+Other,Devin Townsend,11,38.4
+Other,Devin Townsend Project,115,333.7
+Other,Diablo Swing Orchestra,8,24.3
+Other,Diary Of Dreams,15,32.0
+Other,Dido,15,44.7
+Other,Digital Summer,57,90.7
+Other,Dillon Francis,6,9.7
+Other,Dimmu Borgir,7,8.5
+Other,Dio,17,56.3
+Other,Dire Straits,70,297.5
+Other,Dirk Maassen,7,31.0
+Other,Dishwalla,38,28.7
+Other,Disillusion,5,10.7
+Other,Disperse,9,26.4
+Other,Distorted Harmony,9,20.6
+Other,Disturbed,52,136.1
+Other,Divididos,201,620.4
+Other,Djelmash,61,104.8
+Other,Djo,6,3.5
+Other,Dmitri Shostakovich,5,14.8
+Other,Doja Cat,6,14.7
+Other,Dommin,5,20.0
+Other,Donna Summer,6,12.0
+Other,Donots,10,9.7
+Other,Dope,11,13.1
+Other,Dove Cameron,13,28.0
+Other,Doves,13,36.2
+Other,Dr. Dre,22,37.9
+Other,Draconian,7,12.2
+Other,DragonForce,13,35.6
+Other,Dragonland,23,62.4
+Other,Dream Evil,6,18.6
+Other,Dream Theater,1777,7805.2
+Other,Dredg,13,44.3
+Other,Dropkick Murphys,5,6.0
+Other,Drowning Pool,24,49.6
+Other,Dua Lipa,135,386.4
+Other,Duffy,5,13.2
+Other,Duke Ellington,6,23.5
+Other,Duran Duran,253,826.0
+Other,Dynamedion,33,64.7
+Other,ELIO,7,9.1
+Other,EMELINE,20,31.9
+Other,Eagle-Eye Cherry,8,8.4
+Other,Eagles,80,275.3
+Other,Eagles Of Death Metal,6,10.5
+Other,Earshot,5,12.1
+Other,"Earth, Wind & Fire",15,50.0
+Other,Earthside,63,251.6
+Other,Echo & the Bunnymen,25,82.5
+Other,Ed Prosek,13,35.2
+Other,Ed Sheeran,1050,2537.4
+Other,Eddie Money,10,10.7
+Other,Eddie Vedder,17,35.7
+Other,Eden Project,9,13.1
+Other,Edenbridge,10,29.6
+Other,Edgar De Vries,6,2.6
+Other,Edguy,26,97.5
+Other,Editors,40,129.8
+Other,Edvard Grieg,10,45.0
+Other,Edvard Kravchuk,9,6.6
+Other,Edward Sharpe & The Magnetic eros,14,23.2
+Other,Ego Kill Talent,9,21.9
+Other,Egypt Central,7,22.2
+Other,Einar Solberg,29,145.1
+Other,Eisbrecher,6,18.2
+Other,El Búho,7,13.3
+Other,El Cuarteto De Nos,61,125.1
+Other,El Kuelgue,5,5.0
+Other,El Mató a un Policía Motoriado,218,380.6
+Other,El ar,5,12.7
+Other,El viaje de Jim,7,21.7
+Other,Electric Light Orchestra,55,164.9
+Other,Electric Six,5,13.2
+Other,Elina,10,5.6
+Other,Ellie Goulding,75,175.3
+Other,Elliott Smith,119,128.2
+Other,Ellise,14,33.0
+Other,Elton John,60,201.3
+Other,Eluveitie,15,35.2
+Other,Elvenking,11,41.3
+Other,Elvis Presley,14,19.4
+Other,Emarosa,5,17.1
+Other,"Emerson, Lake & Palmer",21,85.7
+Other,Emigrate,6,13.7
+Other,Emilie Autumn,9,6.6
+Other,Eminem,441,1420.8
+Other,Emma Blackery,18,17.5
+Other,Emmanuel Horvilleur,53,86.6
+Other,Emmanuelle Rimbaud,7,5.5
+Other,Enchant,10,24.2
+Other,Ends With A Bullet,7,4.0
+Other,Enemy Inside,8,20.3
+Other,Ennio Morricone,41,100.9
+Other,Enrique Iglesias,16,34.2
+Other,Ensiferum,10,34.9
+Other,Entre Rios,11,1.9
+Other,Entwine,9,24.6
+Other,Enya,18,60.3
+Other,Epic North,5,0.0
+Other,Epic Rap Battles of History,7,4.6
+Other,Epic Score,13,23.6
+Other,Epica,234,616.0
+Other,Erasure,43,110.2
+Other,Eric Clapton,199,418.7
+Other,Eric Johnson,16,55.9
+Other,Erik Ekholm,10,2.9
+Other,Erik Jonasson,23,75.0
+Other,Erik Satie,27,86.8
+Other,Eros Ramaotti,43,154.0
+Other,Eruca Sativa,293,598.5
+Other,Escala,6,2.8
+Other,Estopa,5,3.4
+Other,Eterna Inocencia,16,37.0
+Other,Etham,8,22.2
+Other,Europe,79,253.2
+Other,Eurythmics,92,276.9
+Other,Evanescence,99,256.9
+Other,Evans Blue,35,90.2
+Other,Eve 6,8,26.9
+Other,Evergrey,30,90.6
+Other,Evol Intent,7,30.1
+Other,Excision,11,28.2
+Other,Explosions In The Sky,20,131.2
+Other,Extreme,58,138.9
+Other,FINNEAS,1140,2893.6
+Other,FLETCHER,15,32.0
+Other,FPS Allstars,12,1.4
+Other,Fabiana Cantilo,5,0.1
+Other,Fabriio Paterlini,6,18.8
+Other,Facundo Arana,5,4.0
+Other,Facundo Toro,35,80.8
+Other,Fair To Midland,21,68.0
+Other,Faith No More,53,100.8
+Other,Fall Out Boy,261,705.2
+Other,Falling In Reverse,9,26.4
+Other,Famous Last Words,33,82.4
+Other,Fastball,7,27.2
+Other,Fates Warning,7,28.0
+Other,Fear Factory,15,16.6
+Other,Federico Mompou,10,34.6
+Other,Feed Me,9,29.9
+Other,Feeder,12,36.5
+Other,Felix Mendelssohn,9,29.9
+Other,Fenne Lily,5,2.9
+Other,Fergie,7,9.6
+Other,Fever Ray,12,31.2
+Other,Fifth Harmony,11,22.4
+Other,Filter,24,51.1
+Other,Fine Young Cannibals,6,21.2
+Other,Finger Eleven,7,16.3
+Other,Firewind,5,3.5
+Other,Fish,5,15.7
+Other,Fito Pae,1484,3967.9
+Other,Five Finger Death Punch,51,126.8
+Other,Flaw,17,36.8
+Other,Fleetwood Mac,29,83.6
+Other,Fleurie,26,80.8
+Other,Flight Facilities,5,8.6
+Other,Florence + The Machine,27,63.8
+Other,Flume,34,81.8
+Other,Flying Colors,65,263.8
+Other,Flyleaf,93,210.4
+Other,Foals,60,131.4
+Other,Foo Fighters,210,701.0
+Other,For My Pain...,11,19.3
+Other,Foreigner,28,83.3
+Other,Foster The People,78,209.4
+Other,Foudroie,7,23.2
+Other,Fountains Of Wayne,8,18.4
+Other,Framing Hanley,74,164.8
+Other,Fran Ferdinand,73,174.7
+Other,Fran List,25,108.3
+Other,Francesco da Milano,24,4.1
+Other,Francisco Bochatón,12,9.7
+Other,Francisco Tárrega,5,15.9
+Other,Frank Sinatra,114,263.4
+Other,Frank Turner,50,69.9
+Other,Frank appa,37,86.9
+Other,Frankie Goes To Hollywood,44,133.8
+Other,Freddie Mercury,9,31.1
+Other,Frost*,11,33.6
+Other,Frédéric Chopin,641,2182.1
+Other,Fuel,127,333.1
+Other,Fughu,8,32.2
+Other,Future World Music,22,49.8
+Other,GROUPLOVE,6,8.4
+Other,Gabriel Fauré,5,12.2
+Other,Gabrielle Aplin,58,128.6
+Other,Gail Singleton,5,0.0
+Other,Galahad,5,28.1
+Other,Galantis,20,16.0
+Other,Gamma Ray,5,12.2
+Other,Gapacho,537,1532.3
+Other,Garbage,24,35.7
+Other,Gary Barlow,9,26.3
+Other,Gary Jules,20,33.2
+Other,Gary Moore,13,52.9
+Other,Gary Numan,7,18.5
+Other,Gavin DeGraw,5,2.5
+Other,Gavin James,18,46.1
+Other,Geir Gudmundson,8,0.0
+Other,Gene Loves Jeebel,8,14.0
+Other,Genesis,530,1688.2
+Other,Gentle Giant,138,231.3
+Other,George Era,9,18.5
+Other,George Fenton,5,7.8
+Other,George Frideric Handel,29,78.0
+Other,George Harrison,6,23.8
+Other,George Michael,99,293.1
+Other,George Ogilvie,12,37.2
+Other,Gerard Cousins,5,0.6
+Other,Gerard Way,14,51.0
+Other,Getter,7,14.0
+Other,Ghost,1136,3144.4
+Other,Ghost Brigade,68,127.2
+Other,Giacomo Puccini,33,91.6
+Other,Giuseppe Verdi,21,39.9
+Other,Glass Animals,12,41.7
+Other,Glee Cast,6,10.2
+Other,Glenn Stafford,7,24.0
+Other,Globus,150,356.5
+Other,Gnarls Barkley,18,56.6
+Other,Go West,5,11.4
+Other,God Is An Astronaut,75,274.0
+Other,Godsmack,14,22.6
+Other,Gojira,119,385.4
+Other,Goldfrapp,5,8.2
+Other,Goldmund,11,37.8
+Other,Gone Is Gone,5,20.0
+Other,Good Charlotte,171,408.1
+Other,Gorilla,132,432.7
+Other,Gothminister,8,23.5
+Other,Gotye,13,17.0
+Other,Grace Grundy,8,16.8
+Other,Gracie Abrams,12,24.0
+Other,Great White,5,9.5
+Other,Green Carnation,330,941.8
+Other,Green Day,434,1245.0
+Other,Greta Van Fleet,65,87.8
+Other,Grey,13,24.4
+Other,Grifolk,6,12.9
+Other,Gronholm,6,0.9
+Other,Grupo Astral,5,4.6
+Other,Gryffin,10,14.4
+Other,Guasones,10,19.8
+Other,Guillaume Dufay,10,21.4
+Other,Guilt Machine,12,74.2
+Other,Guns N' Roses,260,999.7
+Other,Gustavo Cerati,235,822.2
+Other,Gustavo Cordera,8,17.7
+Other,Gustavo Santaolalla,20,44.1
+Other,Guthrie Govan,30,65.9
+Other,Gwen Stefani,6,13.6
+Other,Günther,12,16.3
+Other,HELLYEAH,14,32.9
+Other,HIM,417,963.5
+Other,Haggard,11,12.0
+Other,Hailee Steinfeld,17,37.8
+Other,Haken,233,869.1
+Other,Halestorm,465,1035.1
+Other,Haley Klinkhammer,14,35.1
+Other,Haloo Helsinki!,8,21.1
+Other,Halsey,58,122.1
+Other,HammerFall,44,153.6
+Other,Hammock,5,29.3
+Other,Hans immer,281,833.5
+Other,Hanson,5,11.6
+Other,Happoradio,16,43.9
+Other,Hard-Fi,71,159.1
+Other,Hardwell,6,6.6
+Other,Harold Faltermeyer,10,27.6
+Other,Harrison Storm,7,12.6
+Other,Harry Gregson-Williams,35,90.3
+Other,Harry Styles,781,2131.1
+Other,Hayden Calnin,7,18.4
+Other,Headspace,10,22.1
+Other,Heart,26,79.0
+Other,Heaven 17,5,16.1
+Other,Helloween,48,95.1
+Other,Henry Jackman,110,209.7
+Other,Henry Jamison,5,7.6
+Other,Hermetica,23,62.4
+Other,Heroes Del Silencio,16,41.7
+Other,Hey Violet,33,40.6
+Other,Hidden Citiens,5,17.4
+Other,Hinder,30,99.1
+Other,Hive,7,13.1
+Other,Hoier,246,668.7
+Other,Holden Laurence,6,19.5
+Other,Hole,5,6.9
+Other,Hollow Ember,5,20.7
+Other,Holly Humberstone,5,7.3
+Other,Hollywood Principle,8,26.5
+Other,Hollywood Undead,11,22.3
+Other,Home,9,25.0
+Other,Hoobastank,35,97.8
+Other,Horcas,12,27.7
+Other,Hot Chip,5,12.2
+Other,How To Destroy Angels,15,43.6
+Other,Howard Jones,11,37.3
+Other,Howard Shore,130,518.9
+Other,Howie Day,8,18.2
+Other,Huevo,7,14.3
+Other,Huey Lewis & The News,12,30.4
+Other,Hunter Hayes,9,7.3
+Other,Hurt,10,25.7
+Other,Hurts,304,591.1
+Other,I Am Waiting for You Last Summer,6,19.1
+Other,I Monster,38,63.5
+Other,IAMX,1352,3788.2
+Other,ICEHOUSE,6,9.6
+Other,ILLENIUM,16,18.9
+Other,INXS,790,2186.4
+Other,IQ,29,150.0
+Other,ISIS,5,2.0
+Other,Iamthemorning,100,293.6
+Other,Ian Wong,7,4.0
+Other,Iced Earth,9,24.7
+Other,Idina Menel,6,7.8
+Other,If These Trees Could Talk,16,65.2
+Other,Iggy Aalea,16,28.8
+Other,Iggy Pop,5,4.7
+Other,Igor Stravinsky,10,15.2
+Other,Ihlo,30,119.4
+Other,Ihsahn,47,112.6
+Other,Ill Niño,10,23.6
+Other,Illya Kuryaki & The Valderramas,7,20.7
+Other,Imaginary Future,19,12.4
+Other,Imagine Dragons,2309,5681.4
+Other,Immediate,6,5.0
+Other,Imogen Heap,9,15.2
+Other,In Flames,65,155.6
+Other,In This Moment,803,1972.5
+Other,Incubus,260,616.4
+Other,Indios,6,6.0
+Other,Inon ur,12,20.8
+Other,Insomnium,14,45.0
+Other,Institute,5,17.4
+Other,Interpol,50,117.2
+Other,Intoxicados,16,24.7
+Other,Irene Gaifana,6,0.0
+Other,Iron Maiden,408,1553.4
+Other,Isabel LaRosa,5,11.7
+Other,Isak Danielson,9,17.6
+Other,Israel Kamakawiwo'ole,19,46.6
+Other,Iván Torrent,12,32.6
+Other,J Balvin,16,13.4
+Other,JAF,11,45.3
+Other,JAY-,12,26.6
+Other,JP Saxe,6,16.2
+Other,Jack Gardiner,16,60.0
+Other,Jack Johnson,8,15.7
+Other,Jack Trammell,9,9.4
+Other,Jack Wall,13,22.4
+Other,Jack White,7,12.7
+Other,Jack Ü,32,63.8
+Other,Jack's Mannequin,6,27.8
+Other,Jaco Pastorius,41,109.7
+Other,Jacob Lee,44,109.4
+Other,Jacob Shea,39,120.2
+Other,Jade Bird,5,2.7
+Other,Jaime Sin Tierra,16,29.8
+Other,Jakub ytecki,5,12.2
+Other,James,6,17.6
+Other,James Arthur,84,227.3
+Other,James Bay,300,741.7
+Other,James Blake,6,5.0
+Other,James Blunt,128,368.9
+Other,James E. Gray,8,20.1
+Other,James Gillespie,5,3.3
+Other,James Heather,5,12.0
+Other,James Horner,10,25.7
+Other,James Labrie,23,71.0
+Other,James Morrison,11,33.3
+Other,James Newton Howard,35,119.6
+Other,James Smith,8,15.5
+Other,James TW,8,18.0
+Other,James Taylor,12,21.4
+Other,James Vincent McMorrow,6,18.4
+Other,Jamie T,5,13.4
+Other,Jamiroquai,292,765.2
+Other,Jan Václav Vorísek,7,19.7
+Other,Jane's Addiction,16,41.8
+Other,Jarabe De Palo,75,256.5
+Other,Jared Leto,22,73.4
+Other,Jared Moreno Luna,5,13.0
+Other,Jartisto,8,6.4
+Other,Jasmine Thompson,9,10.0
+Other,Jason Aldean,5,16.3
+Other,Jason Becker,35,103.5
+Other,Jason Derulo,24,60.5
+Other,Jason Mra,234,707.4
+Other,Jason Walker,5,0.0
+Other,Javier Milei,5,4.3
+Other,Jaymes Young,34,75.9
+Other,Jean Sibelius,17,54.6
+Other,Jef Martens,5,1.0
+Other,Jeff Buckley,11,30.3
+Other,Jefferson Airplane,7,10.6
+Other,Jennifer Lope,12,8.1
+Other,Jennifer Paige,7,20.9
+Other,Jenny Lange,5,1.3
+Other,Jeremy ucker,22,49.5
+Other,Jerry Cantrell,5,21.7
+Other,Jesper Kyd,34,115.2
+Other,Jesse & Joy,13,33.0
+Other,Jessica Simpson,20,73.0
+Other,Jessie J,45,133.8
+Other,Jet,10,24.2
+Other,Jethro Tull,124,262.2
+Other,Jimi Hendrix,24,54.6
+Other,Jimmy Eat World,17,41.2
+Other,JoJo,6,14.3
+Other,Joaquín Sabina,9,21.3
+Other,Joe Bonamassa,40,183.3
+Other,Joe Cocker,8,5.8
+Other,Joe Hisaishi,6,19.4
+Other,Joe Satriani,218,781.5
+Other,"Joe Satriani, Steve Vai & John Petrucci",5,17.1
+Other,Joel Lindfors,5,16.6
+Other,Joep Beving,8,28.1
+Other,Johann Sebastian Bach,62,175.9
+Other,Johannes Brahms,10,41.1
+Other,Johannes Oerding,9,20.6
+Other,John 5,22,21.4
+Other,John Cage,5,2.7
+Other,John Coltrane,20,100.9
+Other,John Frusciante,19,67.1
+Other,John Legend,10,27.1
+Other,John Lennon,66,168.3
+Other,John Mayer,113,291.6
+Other,John Ottman,18,47.5
+Other,John Petrucci,65,266.1
+Other,John Powell,18,34.3
+Other,John Wesley,15,51.8
+Other,John Williams,119,270.4
+Other,Johnny Cash,13,32.3
+Other,Johnny Hates Ja,6,17.3
+Other,Joji,11,26.3
+Other,Jon Bon Jovi,11,48.9
+Other,Jonas and I,12,21.7
+Other,Jordan Pruitt,8,28.2
+Other,Jordan Rudess,48,80.1
+Other,Joseph Vincent,6,7.7
+Other,Josh Powell,16,23.0
+Other,Journey,57,188.0
+Other,Joy Division,22,28.7
+Other,Joy Williams,5,7.4
+Other,Juan Carlos Baglietto,70,207.5
+Other,Juan Magán,6,12.0
+Other,Juanes,6,12.8
+Other,Judas Priest,49,96.8
+Other,Juli,57,139.3
+Other,Julia Michaels,34,73.3
+Other,Julian Casablancas,8,28.7
+Other,Julien-K,10,40.1
+Other,Juliet Simms,28,44.1
+Other,Jungle,5,17.1
+Other,Justin Bieber,133,392.5
+Other,Justin Timberlake,112,449.9
+Other,Jóhann Jóhannsson,10,25.3
+Other,KISS,87,237.1
+Other,KMFDM,5,12.5
+Other,KT Tunstall,55,133.5
+Other,Kaipa,18,59.4
+Other,Kaiser Chiefs,33,58.8
+Other,Kamelot,25,70.6
+Other,Kansas,251,978.6
+Other,Kapanga,7,4.5
+Other,Kara's Flowers,10,18.1
+Other,Karfagen,7,22.2
+Other,Kari Rueslåtten,20,31.3
+Other,Karmakanic,8,14.4
+Other,Karnivool,241,936.0
+Other,Kasabian,74,110.2
+Other,Katatonia,147,462.5
+Other,Kate Bush,9,14.0
+Other,Katy Perry,36,97.2
+Other,Kauf,39,47.2
+Other,Keane,1281,4296.6
+Other,Keaton Henson,11,32.2
+Other,Kehlani,23,21.2
+Other,Kelly Clarkson,22,33.3
+Other,Kendra Logoar,6,7.5
+Other,Kenny G,11,4.9
+Other,Kenny Loggins,46,126.0
+Other,Kesha,11,25.9
+Other,Kevin Rix,5,8.5
+Other,Kidneythieves,8,30.6
+Other,Killswitch Engage,31,81.4
+Other,Kim Carnes,10,33.4
+Other,Kim Petras,6,10.6
+Other,Kina Grannis,10,18.0
+Other,King Crimson,97,405.4
+Other,King Princess,5,3.5
+Other,Kingcrow,36,95.7
+Other,Kings of Leon,110,307.0
+Other,Kiuas,6,23.6
+Other,Klaus Badelt,9,20.8
+Other,Klaxons,6,12.1
+Other,Klimt 1918,10,27.9
+Other,Knife Party,6,18.9
+Other,Knight Area,7,37.5
+Other,Kodaline,45,135.8
+Other,Koloni,5,17.0
+Other,Korn,237,656.3
+Other,Korpiklaani,23,58.6
+Other,KoruSe,6,16.4
+Other,Krewella,5,11.1
+Other,Kristian Kristensen,5,21.3
+Other,Krypteria,7,8.5
+Other,Kudai,25,19.1
+Other,Kurt Cobain,26,24.6
+Other,Kygo,37,67.1
+Other,Kyle Dixon & Michael Stein,15,8.2
+Other,Kylie Minogue,30,93.0
+Other,LP,10,30.5
+Other,La Fuga,7,7.4
+Other,La Ley,9,25.2
+Other,La Maquina De Hacer Pájaros,21,35.2
+Other,La Oreja de Van Gogh,151,570.7
+Other,La Portuaria,7,4.2
+Other,La Renga,41,55.0
+Other,La Vela Puerca,7,26.7
+Other,Labrinth,20,43.2
+Other,Lacrimas Profundere,14,21.9
+Other,Lacuna Coil,78,143.3
+Other,Lady A,14,44.8
+Other,Lady Gaga,54,138.4
+Other,Ladyhawke,6,7.6
+Other,Lake Of Tears,9,23.0
+Other,Lamb of God,188,287.2
+Other,Lana Del Rey,284,961.6
+Other,Landon Austin,7,7.5
+Other,Larry Groupé,21,22.5
+Other,Las Pastillas del Abuelo,19,83.3
+Other,Las Pelotas,18,35.1
+Other,Las Vin Up,9,15.1
+Other,Las Voces Blancas,13,40.8
+Other,Laura Branigan,13,51.6
+Other,Lauri,21,62.4
+Other,Lauv,20,31.5
+Other,Leaves' Eyes,10,28.3
+Other,Lechuga,8,6.0
+Other,Led eppelin,171,757.3
+Other,Lee Ritenour's 6 String Theory,5,9.5
+Other,Lenny Kravit,375,1316.9
+Other,Leo Brouwer,12,13.0
+Other,Leona Lewis,8,16.1
+Other,Leprous,1817,7440.0
+Other,Leroy Sanche,6,10.7
+Other,Les Friction,283,620.8
+Other,Les Luthiers,6,5.5
+Other,Leslie Grace,5,10.4
+Other,Less Than Jake,7,4.4
+Other,Level 42,14,42.8
+Other,Lewis Capaldi,496,1249.4
+Other,Lewis Watson,17,77.9
+Other,León Gieco,5,12.1
+Other,Lia Marie Johnson,11,32.9
+Other,Lifehouse,19,27.8
+Other,Lights Of Skadi,6,12.1
+Other,Lil Wayne,20,47.1
+Other,Lili K,5,14.7
+Other,Lily & Madeleine,13,22.1
+Other,Lily Allen,15,28.2
+Other,Limewax,11,15.9
+Other,Limp Bikit,56,166.0
+Other,Lindemann,7,16.8
+Other,Lindsey Stirling,7,14.2
+Other,Linkin Park,591,1362.5
+Other,Lio,6,8.1
+Other,Lionel Richie,62,46.4
+Other,Liquid Tension Experiment,79,275.7
+Other,Lisandro Aristimuño,51,88.2
+Other,Lito Vitale,8,16.8
+Other,Little Mix,19,34.5
+Other,Live,14,55.4
+Other,Living Colour,16,65.5
+Other,Liy McAlpine,53,132.4
+Other,Lo' Pibitos,7,4.9
+Other,London Grammar,61,125.2
+Other,Lonely Robot,10,20.1
+Other,Long Distance Calling,45,164.8
+Other,Longing For Tomorrow,25,25.5
+Other,Loquero,5,0.4
+Other,Lord Huron,28,58.4
+Other,Lorde,724,2076.5
+Other,Lordi,27,62.6
+Other,Lorne Balfe,31,52.7
+Other,Los Abuelos De La Nada,25,52.8
+Other,Los Antiguos,16,11.5
+Other,Los Auténticos Decadentes,22,59.9
+Other,Los Caballeros De La Quema,12,21.7
+Other,Los Chalchaleros,21,54.2
+Other,Los Changos Oficial,5,14.1
+Other,Los Enanitos Verdes,28,78.4
+Other,Los Espiritus,12,19.6
+Other,Los Fabulosos Cadillacs,56,186.6
+Other,Los Huayra,28,70.9
+Other,Los Manseros Santiagueños,9,19.1
+Other,Los Nocheros,12,18.7
+Other,Los Nombradores,6,13.2
+Other,Los Nombradores del Alba,51,129.6
+Other,Los Piojos,7,9.2
+Other,Los Rodrigue,63,230.8
+Other,Los Rojas,7,20.9
+Other,Los Tipitos,18,53.8
+Other,Lou Reed,5,11.0
+Other,Louis Tomlinson,5,17.1
+Other,Loverboy,5,7.3
+Other,Lower Definition,67,94.6
+Other,Luciano Pavarotti,6,25.1
+Other,Luciano Pereyra,6,6.8
+Other,Lucio Dalla,13,36.9
+Other,Lucién,7,2.3
+Other,Ludovico Einaudi,52,208.5
+Other,Ludwig van Beethoven,38,188.0
+Other,Luis Alberto Spinetta,75,136.8
+Other,Luis Fonsi,31,111.9
+Other,Luis Miguel,11,23.5
+Other,Luke Bryan,5,18.6
+Other,Lunatic Soul,313,973.8
+Other,Luther Vandross,59,136.6
+Other,Lynyrd Skynyrd,27,143.2
+Other,LÉON,17,22.1
+Other,MARINA,19,42.9
+Other,MAX,7,11.5
+Other,MEG MYERS,9,29.6
+Other,MGMT,57,149.8
+Other,MIKA,69,205.6
+Other,MISSIO,5,15.4
+Other,MONO,5,43.8
+Other,Machinae Supremacy,5,18.4
+Other,Machine Head,69,221.7
+Other,Mad Season,18,70.2
+Other,Madison Beer,13,26.8
+Other,Madonna,81,318.8
+Other,Magic Sword,16,47.2
+Other,Maisie Peters,9,14.8
+Other,Major Laer,10,16.0
+Other,Mala Fama,19,14.0
+Other,Mali-Koa,10,14.1
+Other,Maluma,14,19.8
+Other,Mandroid Echostar,5,12.6
+Other,Manic Street Preachers,20,45.7
+Other,Manowar,12,23.8
+Other,Manuel Barrueco,5,12.7
+Other,Maná,102,402.1
+Other,Maps,6,2.4
+Other,Marama,7,3.2
+Other,Maraton,5,20.3
+Other,Marcin Prybyłowic,24,49.8
+Other,Marco Sfogli,6,20.3
+Other,Marcos Blanc,6,10.8
+Other,Marcy Playground,6,17.3
+Other,Mariah Carey,10,18.2
+Other,Marilina Bertoldi,143,302.4
+Other,Marillion,207,673.6
+Other,Marilyn Manson,607,1786.2
+Other,Marito Baracus,14,11.9
+Other,Mark Diamond,21,27.0
+Other,Mark John Petrie,5,7.3
+Other,Mark Lettieri,12,7.6
+Other,Mark Ronson,26,71.6
+Other,Marko Hietala,43,163.4
+Other,Maroon 5,3123,9355.4
+Other,Marsheaux,20,85.3
+Other,Marshmello,7,10.7
+Other,Martin Garrix,12,24.7
+Other,Martin Landh,7,13.2
+Other,Marty Friedman,205,687.1
+Other,Marvin Gaye,14,38.0
+Other,Massacre,98,220.5
+Other,Massive Attack,52,197.1
+Other,Masterplan,22,62.2
+Other,Mastodon,69,173.5
+Other,Matt Bellamy,21,17.6
+Other,Matt Bissonette,5,13.9
+Other,Maurice Ravel,15,51.0
+Other,Max Richter,287,541.5
+Other,Maybeshewill,11,45.7
+Other,Mayday Parade,20,64.6
+Other,Me First and the Gimme Gimmes,17,15.2
+Other,Me+T,6,18.9
+Other,Meat Loaf,5,24.7
+Other,Meditation,5,11.2
+Other,Megadeth,408,1219.6
+Other,Megan Davies,48,34.4
+Other,Meghan Trainor,19,34.2
+Other,Melanie Martine,24,59.4
+Other,Memphis May Fire,12,16.1
+Other,Men At Work,29,75.2
+Other,Men Without Hats,19,37.6
+Other,Mercedes Sosa,50,152.2
+Other,Meshuggah,27,63.7
+Other,Mest,21,35.1
+Other,Metallica,482,1810.4
+Other,Mew,10,24.2
+Other,Mi Amigo Invencible,28,31.4
+Other,Miami Horror,10,21.5
+Other,Michael Angelo Batio,131,293.5
+Other,Michael Bublé,9,21.8
+Other,Michael Giacchino,8,13.0
+Other,Michael Jackson,638,2074.5
+Other,Michael Kiske & Amanda Somerville,19,42.9
+Other,Michael Schenker Group,6,21.7
+Other,Michael Schulte,10,21.8
+Other,Michael Sembello,11,45.0
+Other,Michele Baldui,6,14.6
+Other,Mick Jagger,33,73.4
+Other,Midnight Oil,8,13.0
+Other,Mike + The Mechanics,14,22.1
+Other,Mike Massé,498,1100.2
+Other,Mikolai Stroinski,19,32.0
+Other,Miles Davis,35,128.7
+Other,Miles Kane,15,23.0
+Other,Miley Cyrus,751,2239.4
+Other,Milky Chance,6,8.7
+Other,Millencolin,44,73.2
+Other,Ministry,10,28.2
+Other,Minniva,11,18.7
+Other,Minus the Bear,29,109.4
+Other,Miranda!,12,17.1
+Other,Misfits,22,36.7
+Other,Missy & Blonde,5,6.1
+Other,Missy Higgins,25,27.0
+Other,Moby,32,122.2
+Other,Modern Talking,16,51.0
+Other,Modest Mouse,7,14.7
+Other,Modjo,6,27.5
+Other,Mogwai,40,104.3
+Other,Monoral,9,11.6
+Other,Mooncake,14,58.4
+Other,Moray Pringle,11,34.9
+Other,Morcheeba,11,31.4
+Other,Morrissey,19,39.5
+Other,Mortal Love,5,17.0
+Other,Mostly Autumn,9,40.3
+Other,Mother Mother,6,18.3
+Other,Motörhead,9,11.4
+Other,Mr. Big,6,7.0
+Other,Mr. Mister,10,37.9
+Other,Muddy Waters,17,82.7
+Other,Mudvayne,100,278.7
+Other,Mumford & Sons,41,78.0
+Other,Muse,2730,9075.9
+Other,My Chemical Romance,350,1056.7
+Other,My Darkest Days,9,21.2
+Other,Myles Kennedy,12,49.4
+Other,Myrath,5,16.7
+Other,Mystery,12,53.7
+Other,MØ,7,19.1
+Other,Måneskin,25,56.4
+Other,Mélanie Laurent,8,20.4
+Other,Mötley Crüe,31,72.1
+Other,NEEDTOBREATHE,6,17.3
+Other,NERIAH,9,13.3
+Other,NERO,7,20.9
+Other,NOFX,27,62.1
+Other,NOTHING MORE,10,32.9
+Other,Nada Surf,356,893.8
+Other,Natalia Lacuna,26,56.9
+Other,Natalie Imbruglia,12,37.1
+Other,National Anthems & World Marches,11,5.4
+Other,Native Construct,25,112.7
+Other,Ne Obliviscaris,47,291.8
+Other,Neal Acree,5,11.5
+Other,Neal Morse,10,40.8
+Other,Neck Deep,8,8.0
+Other,Nemesea,18,50.0
+Other,Neon Trees,9,16.1
+Other,Nerina Pallot,11,13.2
+Other,Nessa Barrett,29,66.3
+Other,Neutral Milk Hotel,5,0.3
+Other,Never Shout Never,5,14.3
+Other,Nevermore,11,24.5
+Other,New Found Glory,11,32.5
+Other,New Order,67,226.5
+Other,New Years Day,18,57.8
+Other,New York Dolls,12,3.7
+Other,Niall Horan,40,98.0
+Other,Niccolò Paganini,19,60.0
+Other,Nicholas Hooper,9,14.4
+Other,Nick Cave & The Bad Seeds,5,2.3
+Other,Nick Johnston,23,48.7
+Other,Nick Jonas,15,31.4
+Other,Nick Phoenix,32,62.8
+Other,Nickelback,417,1225.1
+Other,Nicki Minaj,5,4.5
+Other,Nicky Jam,8,16.7
+Other,Nightingale,6,22.5
+Other,Nightwish,651,2309.3
+Other,Nik Kershaw,27,86.0
+Other,Nikolai Rimsky-Korsakov,28,116.6
+Other,Nils Frahm,8,30.2
+Other,Nina Nesbitt,13,26.8
+Other,Nina Simone,12,14.2
+Other,Nina Tribus,56,98.3
+Other,Nine Inch Nails,823,2206.4
+Other,Ninet Tayeb,7,12.2
+Other,Nirvana,326,810.8
+Other,No Doubt,33,112.0
+Other,No Te Va Gustar,213,671.7
+Other,No Use For A Name,11,5.4
+Other,No Vacancy,6,4.6
+Other,No-Man,54,136.5
+Other,Noah Cyrus,44,106.0
+Other,Noah Kahan,6,13.1
+Other,Noel Gallagher's High Flying Birds,11,12.3
+Other,Nomy,7,4.4
+Other,Nonpoint,26,56.5
+Other,Norah Jones,5,10.0
+Other,Norther,11,13.2
+Other,Northern Faces,5,13.9
+Other,Northern Kings,130,256.1
+Other,Nosound,33,103.7
+Other,Nothing But Thieves,51,125.9
+Other,Novo Amor,38,114.0
+Other,Néstor Garnica,23,42.9
+Other,OConnor,5,5.8
+Other,OK Go,26,38.4
+Other,OOMPH!,9,19.2
+Other,ORKID,5,14.8
+Other,OSI,44,136.0
+Other,OWEL,15,85.7
+Other,Oasis,169,534.5
+Other,Oceans of Slumber,13,41.7
+Other,Oceansie,38,143.3
+Other,October Tide,21,25.8
+Other,Of Monsters and Men,122,303.4
+Other,Oh Hiroshima,17,48.1
+Other,Oh Wonder,5,6.6
+Other,Ola Englund,11,54.6
+Other,Old Gods of Asgard,29,30.3
+Other,Oli Langford,5,5.9
+Other,Oliver Riot,31,81.2
+Other,Olivia O'Brien,10,15.7
+Other,Olivia Rodrigo,46,114.5
+Other,Olly Murs,11,15.9
+Other,One Direction,68,168.2
+Other,One Less Reason,55,118.4
+Other,OneRepublic,91,293.9
+Other,Opeth,776,2988.7
+Other,Orchestra Volare,10,28.4
+Other,Orchestral Manoeuvres In The Dark,9,17.5
+Other,Orgy,25,73.4
+Other,Orlando Vera Cru,6,20.4
+Other,Orphaned Land,20,25.5
+Other,Otep,72,170.2
+Other,Otherwise,6,12.6
+Other,Otis Redding,10,14.0
+Other,Ouna,8,11.9
+Other,Outkast,6,15.6
+Other,Outlanders,9,52.5
+Other,Owane,42,138.0
+Other,Oy Osbourne,270,777.6
+Other,P!nk,75,107.0
+Other,P.O.D.,9,31.0
+Other,PJ Harvey,18,32.5
+Other,PVRIS,27,74.2
+Other,Pagan's Mind,6,22.8
+Other,Pagoda,25,39.4
+Other,Pain of Salvation,938,3141.1
+Other,Panic! At The Disco,461,1073.9
+Other,Pantera,123,280.6
+Other,Paolo Nutini,5,19.6
+Other,Papa Roach,159,361.6
+Other,Pappo,7,4.4
+Other,Pappo's Blues,6,9.2
+Other,Parachute,8,18.0
+Other,Paradise Lost,39,42.0
+Other,Paramore,83,238.7
+Other,Parcels,24,97.4
+Other,Passenger,45,85.8
+Other,Passion Pit,5,13.4
+Other,Patricio Rey y sus Redonditos de Ricota,136,352.7
+Other,Patrick Watson,42,26.0
+Other,Patrick Wolf,25,45.0
+Other,Paul Dinletir,15,35.4
+Other,Paul Engemann,8,12.5
+Other,Paul McCartney,24,87.8
+Other,Paul Young,34,91.0
+Other,Paula Abdul,9,24.2
+Other,Pavement,31,32.6
+Other,Peaceful Melody,5,9.5
+Other,Pearl Jam,181,687.2
+Other,Pedro Anar,29,68.7
+Other,Pennywise,11,2.4
+Other,Pentatonix,41,92.2
+Other,Pere,30,93.3
+Other,Periphery,264,818.7
+Other,Perras on the beach,7,5.1
+Other,Persefone,36,62.6
+Other,Pescado Rabioso,17,36.9
+Other,Pet Shop Boys,22,68.1
+Other,Peter Sandberg,5,13.2
+Other,Pharrell Williams,135,532.9
+Other,Phideaux,17,47.2
+Other,Phil Collins,82,308.4
+Other,Philip Glass,7,39.5
+Other,Phish,8,30.9
+Other,Phoebe Bridgers,7,13.5
+Other,Phoenix,8,13.0
+Other,Phoenix Effect,7,22.5
+Other,Picture This,89,253.8
+Other,Pierce The Veil,6,16.4
+Other,Pink Floyd,1149,3818.1
+Other,Pink Guy,6,15.8
+Other,Pitbull,8,5.3
+Other,Pixies,27,39.4
+Other,Placebo,306,728.4
+Other,Plain White T's,26,29.3
+Other,Plested,5,7.2
+Other,Plini,79,276.2
+Other,Poets of the Fall,551,1386.9
+Other,Pogo,15,15.6
+Other,Poison,21,63.2
+Other,Poisonblack,6,23.7
+Other,Polyphia,52,172.2
+Other,Pomme,6,13.5
+Other,Pop Evil,47,101.6
+Other,Popol Vuh,7,10.5
+Other,Porcupine Tree,1979,7809.9
+Other,Pork,193,594.2
+Other,Porter Robinson,8,28.2
+Other,Portishead,12,22.5
+Other,Portugal. The Man,5,13.8
+Other,Post Malone,11,21.9
+Other,Powerman 5000,11,30.2
+Other,Powerwolf,14,20.5
+Other,Prefab Sprout,16,34.3
+Other,Pretenders,40,100.5
+Other,Pretty Balanced,11,4.7
+Other,Primal Scream,24,42.1
+Other,Prime Circle,20,35.8
+Other,Primus,15,24.7
+Other,Prince,53,181.1
+Other,Proofsound,6,4.9
+Other,Prophets Of Rage,14,8.4
+Other,Protest The Hero,6,16.9
+Other,Public Image Ltd.,5,12.7
+Other,Puddle Of Mudd,56,160.0
+Other,Pulp,16,27.1
+Other,Pure Reason Revolution,9,41.7
+Other,Puscifer,17,33.0
+Other,Pyotr Ilyich Tchaikovsky,27,129.2
+Other,Pyromed,10,42.8
+Other,Queen,1068,2933.0
+Other,Queens of the Stone Age,247,743.6
+Other,Queensrÿche,67,159.4
+Other,Quiet Riot,33,101.1
+Other,R.E.M.,215,728.1
+Other,RAIGN,6,18.9
+Other,REO Speedwagon,20,55.9
+Other,RPWL,97,328.6
+Other,RY X,5,13.3
+Other,Radio Musica Clasica,16,26.8
+Other,Radiohead,594,1456.6
+Other,Radnor & Lee,17,40.8
+Other,Rag'n'Bone Man,6,14.3
+Other,Rage,32,35.7
+Other,Rage Against The Machine,42,66.4
+Other,Ragnar olberg,43,74.3
+Other,Rainbow,16,47.0
+Other,Ramin Djawadi,51,145.2
+Other,Ramiro Flores,35,70.8
+Other,Rammstein,1075,2674.9
+Other,Ramones,280,490.2
+Other,Rancid,41,73.1
+Other,Rata Blanca,68,134.6
+Other,Ravenscroft,6,22.8
+Other,Ray LaMontagne,5,4.2
+Other,Ray Parker Jr.,7,8.8
+Other,Ray Wilson,7,25.3
+Other,Rayos Láser,22,25.5
+Other,Re,10,15.8
+Other,ReVamp,51,100.9
+Other,Reading Background Music Playlist,18,16.8
+Other,Really Slow Motion,5,6.3
+Other,Red,82,180.7
+Other,Red Hot Chili Peppers,359,1178.7
+Other,Red Sun Rising,7,21.1
+Other,Redemption,11,17.8
+Other,Reel Big Fish,11,32.8
+Other,Regina Spektor,5,9.3
+Other,Reinhard Mey,18,58.7
+Other,Relaxing Music,11,34.3
+Other,Rendevous Point,14,53.5
+Other,Rev Theory,12,37.6
+Other,Revis,41,69.2
+Other,Rey Sol Marquesi,10,4.4
+Other,Rhapsody,12,12.4
+Other,Rhapsody Of Fire,25,90.0
+Other,Rhys Lewis,10,20.2
+Other,Ricardo Arjona,77,286.6
+Other,Richard Galliano,5,11.7
+Other,Richard Henshall,5,15.3
+Other,Richard Wagner,13,59.9
+Other,Richie Koten,13,44.2
+Other,Richie Sambora,14,68.7
+Other,Rick Astley,102,290.5
+Other,Rick Springfield,6,4.2
+Other,Rick Wakeman,37,50.0
+Other,Ricky Montgomery,7,23.2
+Other,Rihanna,74,162.1
+Other,Rise Against,20,60.3
+Other,Rishloo,140,545.6
+Other,Rival Sons,5,24.0
+Other,Riverside,1011,3279.1
+Other,Rob Martino,8,39.7
+Other,Rob ombie,62,128.4
+Other,Robbie Williams,748,2323.0
+Other,Robert Schumann,6,17.5
+Other,Roberto Goyeneche,8,23.0
+Other,Robin Schenk,9,24.6
+Other,Robyn Sherwell,6,9.4
+Other,Rockwell,8,24.3
+Other,Rod Stewart,7,24.6
+Other,Rodrigo,5,17.0
+Other,Romaine LaGrande,6,2.1
+Other,Rombai,9,12.5
+Other,Romeo Santos,10,30.9
+Other,Ronan Keating,5,10.6
+Other,Rosie Carney,25,4.4
+Other,Rothwell,17,43.1
+Other,Roxette,15,41.0
+Other,Roy Merchant,5,7.4
+Other,Roy Orbison,13,16.1
+Other,Royal Bliss,80,163.4
+Other,Royal Blood,45,107.5
+Other,Ruben Rada,10,37.1
+Other,Rudimental,22,34.8
+Other,Ruelle,42,66.7
+Other,Rupert Pope,18,18.2
+Other,Rush,280,929.6
+Other,Russell Brower,21,80.2
+Other,Russian Circles,69,270.8
+Other,Ryuichi Sakamoto,6,19.1
+Other,SA,7,7.2
+Other,SICK PUPPIES,78,225.6
+Other,STARSET,8,27.7
+Other,STEELHEART,81,295.3
+Other,SVRCINA,40,84.6
+Other,SYML,99,284.4
+Other,Sabaton,39,96.6
+Other,Sabrina Carpenter,15,29.3
+Other,Sad Alice Said,16,6.1
+Other,Sade,27,99.2
+Other,Saint Asonia,6,10.2
+Other,Saint Deamon,41,77.2
+Other,Saliva,59,153.5
+Other,Sam Fender,7,13.4
+Other,Sam Smith,36,68.4
+Other,Santana,35,100.8
+Other,Sara Bareilles,11,18.6
+Other,Sasha Alex Sloan,32,51.8
+Other,Saturno Torelli,12,33.2
+Other,Saturnus,23,38.3
+Other,Saving Abel,67,140.5
+Other,Scale The Summit,12,52.7
+Other,Scars On Broadway,28,49.8
+Other,Schanta,8,9.5
+Other,Scissor Sisters,6,17.1
+Other,Scorpions,1008,3330.8
+Other,Scott Stapp,13,13.7
+Other,Screaming Headless Torsos,19,52.8
+Other,Seafret,118,252.3
+Other,Seal,25,104.0
+Other,Sean Paul,5,15.8
+Other,Seeb,6,10.1
+Other,Seether,264,559.3
+Other,Seinabo Sey,5,11.7
+Other,Selena Gome,82,192.0
+Other,Semisonic,7,23.1
+Other,Sentenced,10,15.9
+Other,Sepultura,21,29.0
+Other,Serenity,92,174.9
+Other,Sergei Baronin,5,7.8
+Other,Sergei Rachmaninoff,18,72.9
+Other,Sergio Puccini,18,104.8
+Other,Serj Tankian,104,285.7
+Other,Serú Girán,151,371.6
+Other,Seven Mary Three,9,24.7
+Other,Sevendust,108,320.7
+Other,Seventh Wonder,54,112.5
+Other,Shaggy,6,6.8
+Other,Shakey Graves,5,18.2
+Other,Shakira,66,184.2
+Other,Shaman's Harvest,10,23.3
+Other,Shawn Mendes,65,137.3
+Other,She Wants Revenge,21,50.5
+Other,Sheryl Crow,13,35.9
+Other,Shinedown,2658,6534.0
+Other,Sia,483,1192.5
+Other,Sieges Even,59,116.9
+Other,Sigma,5,2.5
+Other,Signe Bratlie,9,0.0
+Other,Signs of Betrayal,16,17.3
+Other,Sigrid,12,8.9
+Other,Sigur Rós,17,52.2
+Other,Silent Call,24,35.2
+Other,Silverchair,53,117.9
+Other,Silversun Pickups,9,13.1
+Other,Simple Minds,76,222.4
+Other,Simple Plan,46,122.7
+Other,Simply Red,35,118.5
+Other,Sins In Vain,21,35.6
+Other,Sinéad O'Connor,9,9.2
+Other,Sirenia,13,35.3
+Other,Sister Hael,6,17.5
+Other,Sixx:A.M.,27,54.9
+Other,Skid Row,891,2498.1
+Other,Skillet,90,229.6
+Other,Skrillex,67,224.5
+Other,Skyharbor,6,23.8
+Other,Skylar Grey,20,40.6
+Other,Slash,38,122.8
+Other,Slayer,46,129.5
+Other,Sleep Token,21,85.4
+Other,Sleeping At Last,34,94.6
+Other,Sleeping Wolf,5,13.8
+Other,Slipknot,189,601.0
+Other,Slowdive,8,8.0
+Other,Smash Mouth,11,11.8
+Other,Smile Empty Soul,54,144.8
+Other,Smith & Myers,22,47.7
+Other,Sneaker Pimps,35,79.6
+Other,Snoop Dogg,21,67.9
+Other,Snow Patrol,66,130.8
+Other,Social Distortion,8,11.6
+Other,Soda Stereo,460,1484.9
+Other,Sody,10,14.7
+Other,Soen,1134,4100.8
+Other,Sofia Karlberg,5,2.8
+Other,Soft Cell,59,148.2
+Other,Sofía Reyes,5,11.0
+Other,Soil,13,22.5
+Other,Soledad,9,11.6
+Other,Sonata Arctica,2157,5413.1
+Other,Sonic Youth,11,21.9
+Other,Sons Of Apollo,15,35.8
+Other,Sophie Ellis-Bextor,5,13.6
+Other,Soul Asylum,14,37.0
+Other,Sound Adventures,6,11.8
+Other,Soundgarden,131,480.1
+Other,Spandau Ballet,66,227.6
+Other,Spice Girls,23,62.8
+Other,Spin Doctors,9,30.1
+Other,Spineshank,11,19.8
+Other,Spinetta Jade,8,9.2
+Other,Spinetta Y Los Socios Del Desierto,16,24.1
+Other,Spock's Beard,53,208.8
+Other,Spor,52,92.0
+Other,Stabsmusikkorps der Bundeswehr,17,44.0
+Other,Staind,131,406.2
+Other,Starsailor,6,19.5
+Other,Starship,15,30.8
+Other,Static-X,15,19.1
+Other,Steel Panther,6,1.5
+Other,Stephanie Mills,8,36.5
+Other,Stephen Sanche,11,23.5
+Other,Stereophonics,44,164.0
+Other,Steve Aoki,7,16.8
+Other,Steve Hackett,6,12.2
+Other,Steve Jablonsky,11,47.7
+Other,Steve Vai,199,616.4
+Other,Steven Wilson,1719,5744.0
+Other,Stevie Ray Vaughan,9,16.5
+Other,Stevie Wonder,38,132.8
+Other,Stiff Little Fingers,5,12.2
+Other,Sting,256,869.6
+Other,Stone Sour,390,1016.3
+Other,Stone Temple Pilots,125,383.6
+Other,Storm Corrosion,28,134.7
+Other,Strata,5,14.4
+Other,Stratovarius,78,266.1
+Other,Stray Cats,24,36.4
+Other,Stream of Passion,121,354.4
+Other,Study Music,9,18.2
+Other,Styx,14,24.2
+Other,Sublime,5,10.8
+Other,Submersed,5,18.3
+Other,Subsignal,48,156.9
+Other,Suede,5,8.8
+Other,Sufjan Stevens,12,26.7
+Other,Sugar Ray,9,31.4
+Other,Sui Generis,105,190.5
+Other,Sully Erna,7,25.7
+Other,Sum 41,454,817.3
+Other,Sumac Dub,24,14.5
+Other,Sumo,86,288.4
+Other,Sun Caged,6,0.6
+Other,Sunrise Avenue,9,16.6
+Other,Supercombo,5,11.4
+Other,Supertramp,31,79.5
+Other,Survivor,101,260.2
+Other,Swedish House Mafia,8,31.2
+Other,Sylvan,391,1090.1
+Other,Symphony X,116,354.1
+Other,System Of A Down,202,471.5
+Other,System Syn,12,18.6
+Other,T-Pain,14,24.7
+Other,TINI,10,4.9
+Other,TLC,8,8.4
+Other,TOOL,174,820.7
+Other,TOTO,272,762.8
+Other,TRUSTcompany,17,40.4
+Other,TU M',5,41.1
+Other,TV On The Radio,9,19.6
+Other,Take That,66,54.1
+Other,Talk Talk,74,246.8
+Other,Tamara Castro,23,38.6
+Other,Tame Impala,12,32.5
+Other,Tamer,5,15.0
+Other,Tan Bionica,95,343.1
+Other,Tantric,6,11.6
+Other,Tarja,52,129.4
+Other,Tarot,54,145.5
+Other,Tash Sultana,70,256.4
+Other,Tate McRae,9,10.8
+Other,Taylor Swift,1054,3213.4
+Other,Tears For Fears,459,1525.2
+Other,Tech N9ne,5,12.5
+Other,Technical Itch,6,16.2
+Other,Teddy Swims,7,18.0
+Other,Telemetrik,5,9.8
+Other,Templaria,11,53.4
+Other,Temple Of The Dog,73,273.7
+Other,Teramae,20,35.4
+Other,Tesla,5,22.7
+Other,TesseracT,245,752.8
+Other,Testament,15,25.1
+Other,Textures,13,25.1
+Other,Thalia,6,14.4
+Other,Thank You Scientist,70,264.3
+Other,The 1975,152,335.4
+Other,The 69 Eyes,7,20.2
+Other,The Alan Parsons Project,19,61.1
+Other,The Algorithm,55,134.2
+Other,The All-American Rejects,25,75.6
+Other,The Anchoress,6,24.8
+Other,The Antlers,5,22.3
+Other,The Aristocrats,16,31.1
+Other,The Arkitecht,12,54.0
+Other,The Ataris,40,79.2
+Other,The B-52's,35,109.3
+Other,The Bangles,18,28.3
+Other,The Beach Boys,9,20.2
+Other,The Beatles,230,380.9
+Other,The Best Pessimist,7,35.1
+Other,The Birthday Massacre,28,86.7
+Other,The Black Crowes,10,30.1
+Other,The Black Jets,13,21.2
+Other,The Black Keys,75,170.8
+Other,The Black Noodle Project,12,29.9
+Other,The Buggles,11,20.5
+Other,The Butterfly Effect,22,68.2
+Other,The Cab,29,67.7
+Other,The Calling,32,64.1
+Other,The Cardigans,134,434.3
+Other,The Cars,8,20.2
+Other,The Chainsmokers,24,59.3
+Other,The Chordettes,9,19.3
+Other,The Church,12,29.7
+Other,The City of Prague Philharmonic Orchestra,5,14.2
+Other,The Civil Wars,60,66.5
+Other,The Clash,49,68.9
+Other,The Contortionist,198,562.4
+Other,The Coronas,12,31.3
+Other,The Corrs,5,14.5
+Other,The Cranberries,37,117.4
+Other,The Cult,13,34.4
+Other,The Cure,172,404.8
+Other,The Dandy Warhols,10,22.5
+Other,The Dark Element,10,30.2
+Other,The Darkness,9,26.0
+Other,The Dead Weather,16,12.5
+Other,The Dear Hunter,796,2222.8
+Other,The Decemberists,10,31.5
+Other,The Doors,26,64.3
+Other,The Dresden Dolls,5,4.4
+Other,The Evpatoria Report,23,154.5
+Other,The Exies,8,17.9
+Other,The Fearless Flyers,6,12.8
+Other,The Fixx,13,25.2
+Other,The Flaming Lips,5,16.2
+Other,The Flower Kings,8,14.9
+Other,The Fratellis,11,27.7
+Other,The Fray,35,109.4
+Other,The Goo Goo Dolls,20,49.6
+Other,The Haunted,5,1.8
+Other,The Hives,10,14.8
+Other,The Hollies,8,13.2
+Other,The Human League,22,60.9
+Other,The Jacksons,6,31.0
+Other,The Jam,10,7.6
+Other,The Japanese House,14,29.3
+Other,The Killers,89,267.5
+Other,The Kills,5,8.8
+Other,The Kooks,85,130.0
+Other,The Last Shadow Puppets,99,218.9
+Other,The Libertines,19,32.1
+Other,The Lonely Island,104,169.2
+Other,The Lumineers,17,40.9
+Other,The Maccabees,7,13.4
+Other,The Magic Lantern,6,3.1
+Other,The Maine,8,14.6
+Other,The Mamas & The Papas,5,8.3
+Other,The Mars Volta,73,245.2
+Other,The Mayan Factor,165,512.5
+Other,The Mayfield Four,6,19.5
+Other,The Mayries,10,19.2
+Other,The Midnight,7,35.2
+Other,The Moody Blues,6,11.7
+Other,The Movement in Codes,5,7.0
+Other,The Murder of My Sweet,21,26.5
+Other,The National,6,18.5
+Other,The Neighbourhood,69,183.0
+Other,The Ocean,7,30.3
+Other,The Offspring,68,119.9
+Other,The Omnific,8,30.6
+Other,The Outfield,9,32.5
+Other,The Paper Kites,25,65.5
+Other,The Paradox Twin,17,53.2
+Other,The Pineapple Thief,1783,6060.3
+Other,The Pointer Sisters,11,22.1
+Other,The Police,1235,4387.8
+Other,The Presidents Of The United States Of America,9,16.9
+Other,The Pretty Reckless,310,990.6
+Other,The Proclaimers,14,15.6
+Other,The Psychedelic Furs,27,65.0
+Other,The Pussycat Dolls,5,11.0
+Other,The Raconteurs,20,59.0
+Other,The Rasmus,1516,3405.1
+Other,The Reasoning,12,1.5
+Other,The Red Army Choir,5,4.5
+Other,The Red Jumpsuit Apparatus,16,36.1
+Other,The Rocket Summer,33,57.3
+Other,The Rolling Stones,118,319.9
+Other,The Romantics,27,72.8
+Other,The Script,40,106.1
+Other,The Shins,14,24.5
+Other,The Smashing Pumpkins,138,305.9
+Other,The Smiths,380,1052.3
+Other,The Sound Of Animals Fighting,6,21.9
+Other,The Spiritual Machines,172,308.9
+Other,The Stone Roses,8,14.9
+Other,The Strokes,115,221.8
+Other,The Sweeplings,18,40.6
+Other,The Tangent,14,74.3
+Other,The The,27,79.5
+Other,The Third Ending,355,561.0
+Other,The Upbeats,7,14.9
+Other,The Used,6,21.2
+Other,The Vamps,9,11.7
+Other,The Veronicas,6,15.2
+Other,The Verve,82,277.3
+Other,The Vines,11,18.3
+Other,The Wanted,5,0.8
+Other,The War On Drugs,23,66.0
+Other,The Weeknd,223,628.5
+Other,The White Stripes,123,286.4
+Other,The Who,32,85.9
+Other,The Winery Dogs,18,63.5
+Other,The Wombats,30,52.2
+Other,The xx,63,168.9
+Other,Them Crooked Vultures,12,36.7
+Other,Thenighttimeproject,14,46.1
+Other,Theory of a Deadman,296,745.8
+Other,There For Tomorrow,23,27.8
+Other,Therion,79,128.3
+Other,Thin Liy,12,30.2
+Other,Thirty Seconds To Mars,2356,6284.5
+Other,This Providence,5,13.6
+Other,This Will Destroy You,8,35.6
+Other,Thomas Bergersen,204,409.7
+Other,Thomas Newman,13,26.1
+Other,Thompson Twins,40,97.7
+Other,Thornley,58,96.6
+Other,Thousand Foot Krutch,14,28.6
+Other,Three Days Grace,276,546.0
+Other,Threshold,42,122.7
+Other,Thrice,6,14.8
+Other,Tiamat,27,42.4
+Other,Tides Of Man,49,143.9
+Other,Tim Bowness,24,49.7
+Other,Tim McGraw,5,15.8
+Other,Tinashe,5,10.1
+Other,Tinie Tempah,7,18.1
+Other,Tiësto,8,23.1
+Other,Tokio Hotel,143,345.1
+Other,Tom Felton,11,30.1
+Other,Tom Odell,653,1673.7
+Other,Tom Petty,14,37.1
+Other,Tom Speight,8,13.2
+Other,Tom Walker,96,202.5
+Other,Tommee Profitt,7,15.5
+Other,Tommy Simms,8,0.7
+Other,Tomorrow's Eve,69,149.0
+Other,Toni Cornell,8,11.6
+Other,Tony Bennett,20,49.9
+Other,Tony Levin,11,9.6
+Other,Tony MacAlpine,19,9.0
+Other,Tony Sheridan,34,100.8
+Other,Toothgrinder,7,11.9
+Other,Toploader,6,19.4
+Other,Tove Lo,27,52.6
+Other,Tracy Chapman,6,11.4
+Other,Train,51,122.3
+Other,Transplants,7,8.4
+Other,Trapt,80,235.2
+Other,Travis,58,137.7
+Other,Travis Atreo,9,10.2
+Other,Trent Dabbs,6,6.1
+Other,Trent Renor,19,88.4
+Other,Trevor Daniel,6,0.7
+Other,Trevor Morris,35,71.9
+Other,Trio Taival,7,21.2
+Other,Tristania,43,92.2
+Other,Triumph,6,8.8
+Other,Trivium,125,260.4
+Other,Troye Sivan,54,112.7
+Other,Turf,47,77.6
+Other,Turisas,9,23.1
+Other,Twelve Foot Ninja,7,30.6
+Other,Twenty One Pilots,261,701.9
+Other,Twisted Sister,26,44.1
+Other,Two Door Cinema Club,24,44.0
+Other,Two Places at Once,16,39.1
+Other,Two Steps from Hell,38,122.6
+Other,Tyler Bates,24,25.3
+Other,Type O Negative,7,17.6
+Other,U2,918,2631.2
+Other,UFO,19,72.8
+Other,USHER,10,15.7
+Other,Ultravox,18,45.7
+Other,Una Bandita Indie de la Plata,6,8.1
+Other,Under The Influence of Giants,10,33.9
+Other,Uneven Structure,20,65.6
+Other,Unwoman,8,8.2
+Other,Us The Duo,13,8.0
+Other,Usted Señalemelo,7,7.6
+Other,Utopians,9,14.1
+Other,VNV Nation,13,30.6
+Other,VOLA,107,337.6
+Other,VV,21,97.0
+Other,VXLLAIN,5,15.8
+Other,Valentin Wiest,6,6.5
+Other,Vampire Weekend,23,38.7
+Other,Van Canto,8,3.6
+Other,Van Der Graaf Generator,5,21.0
+Other,Van Halen,67,157.7
+Other,Vance Joy,67,162.1
+Other,Vancouver Sleep Clinic,7,14.7
+Other,Vanden Plas,8,44.2
+Other,Vangelis,47,44.1
+Other,Varien,8,0.0
+Other,Various Artists,21,12.2
+Other,Vast,24,75.4
+Other,Velvet Revolver,258,760.3
+Other,VersaEmerge,28,29.4
+Other,Vesala,5,1.0
+Other,Vestigial,6,0.4
+Other,Vicentico,16,26.7
+Other,Victor Morssali,6,18.3
+Other,Viejas Locas,5,14.9
+Other,Ville Valo,10,17.1
+Other,Ville Valo & Agents,5,13.1
+Other,Violent Femmes,14,31.1
+Other,Virus,34,105.8
+Other,Visage,15,35.0
+Other,Vlado Hudec,7,17.8
+Other,Volbeat,20,61.0
+Other,Volcano Choir,8,20.1
+Other,Von Herten Brothers,15,64.5
+Other,Votum,33,139.1
+Other,Voyager,10,36.3
+Other,Vulkan,52,151.8
+Other,VÉRITÉ,7,10.7
+Other,Víkingur Ólafsson,5,0.0
+Other,Vök,7,15.5
+Other,W.A.S.P.,10,33.4
+Other,WALK THE MOON,25,70.9
+Other,WWE,5,9.1
+Other,Wallows,11,18.3
+Other,Warpaint,18,14.5
+Other,Warrant,14,41.0
+Other,We Are Scientists,19,30.3
+Other,We Are the Catalyst,10,22.9
+Other,We The Kings,14,48.3
+Other,Weather Report,5,19.9
+Other,Weeer,44,78.0
+Other,Wham!,24,61.5
+Other,Wheel,12,38.7
+Other,While She Sleeps,5,6.1
+Other,White Lies,10,28.8
+Other,White Moth Black Butterfly,35,104.4
+Other,White ombie,7,13.8
+Other,Whitesnake,61,192.4
+Other,Whitney Houston,24,53.4
+Other,Wi Khalifa,5,12.5
+Other,Widek,12,29.0
+Other,Wilco,16,37.9
+Other,Wilderun,9,48.8
+Other,Will Smith,9,29.3
+Other,William Clark Green,6,24.6
+Other,Willix,9,30.2
+Other,Wind Rose,14,49.9
+Other,Within Temptation,33,60.1
+Other,Wobbler,5,30.4
+Other,Wolfgang Amadeus Moart,58,222.0
+Other,Wolfmother,8,20.4
+Other,Wolverine,38,131.8
+Other,Woodkid,13,32.2
+Other,Wrabel,11,21.8
+Other,X Ambassadors,200,509.1
+Other,XTC,10,10.8
+Other,Xandria,6,10.9
+Other,Xibit,9,29.0
+Other,Yandel,6,4.5
+Other,Yann Tiersen,37,57.0
+Other,Yao Chen,15,6.7
+Other,Yeah Yeah Yeahs,11,23.1
+Other,Yellowcard,76,175.4
+Other,Yes,104,348.4
+Other,Yiruma,5,16.5
+Other,Ylvis,51,123.7
+Other,Yogi Lang,7,31.7
+Other,Yoko Ono,13,27.9
+Other,You Me At Six,7,29.6
+Other,Young Guns,5,10.6
+Other,Young Heretics,11,26.0
+Other,Young Statues,10,9.4
+Other,Young the Giant,18,58.1
+Other,Youngblood Hawke,17,33.9
+Other,a-ha,142,488.2
+Other,ack Hemsey,39,153.6
+Other,akk Wylde,24,64.8
+Other,alt-J,28,92.8
+Other,amba Quipildor,7,20.2
+Other,ambayonny,6,4.6
+Other,ara Larsson,6,14.1
+Other,awfultune,10,12.7
+Other,blink-182,783,1581.8
+Other,c152,38,93.8
+Other,deadmau5,10,43.5
+Other,dodie,39,105.8
+Other,edd,6,9.3
+Other,elephant planet,6,26.8
+Other,ella Day,13,7.7
+Other,eph,6,5.8
+Other,fun.,16,65.2
+Other,gelowler,10,26.0
+Other,girl in red,29,75.2
+Other,gnash,14,26.4
+Other,ion & Lennox,5,18.4
+Other,isaac gracie,12,26.8
+Other,mehro,22,37.8
+Other,mgk,7,14.6
+Other,moonvampire,5,9.6
+Other,mxmtoon,5,8.9
+Other,my bloody valentine,18,40.6
+Other,olita,6,10.2
+Other,omboy,5,13.2
+Other,oé,5,8.5
+Other,t.A.T.u.,52,164.4
+Other,temposhark,7,20.0
+Other,toe,11,30.8
+Other,Árstíðir,6,20.9
+Other,Ólafur Arnalds,36,89.1
+Other,✝✝✝ (Crosses),11,22.5
+Pop,ABBA,34,16.9
+Pop,AYN,9,15.4
+Pop,Allie X,17,33.3
+Pop,Ariana Grande,844,2147.3
+Pop,Backstreet Boys,67,204.2
+Pop,Ben Platt,93,246.9
+Pop,Beyoncé,14,23.6
+Pop,Billie Eilish,2150,5181.7
+Pop,Britney Spears,89,213.3
+Pop,Bruno Mars,64,180.6
+Pop,Dead Or Alive,15,46.1
+Pop,Dua Lipa,98,253.1
+Pop,Ed Sheeran,1068,2834.4
+Pop,Ellie Goulding,16,40.1
+Pop,FINNEAS,854,2182.3
+Pop,George Michael,37,108.2
+Pop,Halsey,8,14.2
+Pop,James Bay,562,1461.6
+Pop,Katy Perry,66,182.9
+Pop,Lady Gaga,92,232.4
+Pop,Lana Del Rey,263,913.8
+Pop,Lorde,513,1313.0
+Pop,Mark Ronson,13,45.1
+Pop,Michael Jackson,739,2468.1
+Pop,Miley Cyrus,691,1911.7
+Pop,Nessa Barrett,48,95.8
+Pop,Nick Jonas,8,8.8
+Pop,Paul Young,5,3.4
+Pop,Pet Shop Boys,12,28.6
+Pop,Rick Astley,98,281.7
+Pop,Rihanna,45,106.3
+Pop,Savage Garden,7,23.2
+Pop,Taylor Swift,909,2660.9
+Pop,Tears For Fears,18,70.7
+Pop,The Cardigans,9,33.2
+Pop,The Smiths,18,48.8
+Pop,VÉRITÉ,11,22.2
+Pop Rock,Avril Lavigne,74,160.6
+Pop Rock,Bastille,53,145.1
+Pop Rock,Boyce Avenue,155,323.7
+Pop Rock,Coldplay,177,675.1
+Pop Rock,Fall Out Boy,110,326.3
+Pop Rock,Imagine Dragons,2319,5429.4
+Pop Rock,Maroon 5,3322,10355.7
+Pop Rock,OneRepublic,61,187.3
+Pop Rock,Panic! At The Disco,549,1335.2
+Pop Rock,Paramore,64,174.4
+Pop Rock,Robbie Williams,930,3074.0
+Pop Rock,The Script,32,89.2
+Pop Rock,Twenty One Pilots,151,441.2
+Pop Rock,X Ambassadors,227,541.4
+Post-Hardcore,Circa Survive,22,52.3
+Post-Hardcore,Famous Last Words,17,42.4
+Post-Hardcore,VersaEmerge,35,31.6
+Post-Rock,Klimt 1918,56,102.5
+Power Metal,Blind Guardian,13,43.6
+Power Metal,Rhapsody Of Fire,7,23.5
+Power Metal,Sonata Arctica,2150,5503.1
+Power Metal,Stratovarius,79,229.7
+Power Metal,Van Canto,5,8.4
+Progressive Metal,Dream Theater,1642,7177.6
+Progressive Metal,Haken,437,1853.4
+Progressive Metal,Klone,6,20.2
+Progressive Metal,Leprous,2847,11579.1
+Progressive Metal,Nevermore,14,34.8
+Progressive Metal,Opeth,1204,4109.9
+Progressive Metal,Scale The Summit,19,70.7
+Progressive Rock,Genesis,574,2136.8
+Progressive Rock,Gentle Giant,132,206.0
+Progressive Rock,Peter Gabriel,55,209.0
+Progressive Rock,Pink Floyd,1051,3088.7
+Progressive Rock,Porcupine Tree,2053,7523.9
+Progressive Rock,Rush,238,819.0
+Progressive Rock,Steven Wilson,917,3346.0
+Progressive Rock,Thank You Scientist,52,188.6
+Progressive Rock,The Dear Hunter,827,2315.0
+Progressive Rock,The Pineapple Thief,2393,8717.1
+Progressive Rock,Transatlantic,8,18.6
+Progressive Rock,Yes,87,381.9
+Punk Rock,Bad Religion,10,20.4
+Punk Rock,Good Charlotte,17,31.2
+Punk Rock,Green Day,222,505.6
+Punk Rock,NOFX,50,79.0
+Punk Rock,Ramones,164,314.3
+Punk Rock,Rise Against,42,116.8
+Punk Rock,Sum 41,401,737.5
+Punk Rock,The Offspring,149,256.3
+Punk Rock,blink-182,727,1527.1
+R&B,Philip Bailey,16,72.6
+R&B,The Weeknd,151,427.3
+Rock,Fleetwood Mac,7,22.6
+Rock,HIM,7,23.4
+Rock,Harry Styles,120,391.3
+Rock,Kings of Leon,58,156.9
+Rock,No Doubt,18,68.2
+Rock,Stone Sour,56,162.8
+Rock,The Smiths,20,45.2
+Soundtrack,Alexandre Desplat,48,97.1
+Soundtrack,Dario Marianelli,111,285.2
+Soundtrack,Gustavo Santaolalla,32,67.8
+Soundtrack,Hans immer,242,757.4
+Soundtrack,Howard Shore,117,394.8
+Soundtrack,James Newton Howard,23,61.5
+Soundtrack,John Williams,174,379.8
+Soundtrack,Les Friction,233,597.6
+Soundtrack,Lorne Balfe,35,58.7
+Soundtrack,Ramin Djawadi,39,103.4
+Soundtrack,Thomas Bergersen,188,478.2
+Soundtrack,Two Steps from Hell,43,133.0
+Soundtrack,Yann Tiersen,44,89.0
+Symphonic Metal,Edenbridge,7,26.3
+Symphonic Metal,Epica,226,608.0
+Symphonic Metal,Kamelot,36,60.9
+Symphonic Metal,Nightwish,617,2254.1

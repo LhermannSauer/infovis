@@ -168,7 +168,6 @@
  
     .scroll-hint { animation: float 2.5s ease-in-out infinite; }
  
-    /* Orbit groups: translate so centre = SVG origin, then animate rotation */
     .orbit-cw  {
       transform-origin: 240px 240px;
       animation: spin-cw  18s linear infinite;
@@ -178,18 +177,15 @@
       animation: spin-ccw 12s linear infinite;
     }
  
-    /* Bars: grow from bottom of each rect */
     .bar { transform-box: fill-box; transform-origin: 50% 100%; animation: bar-grow .8s var(--ease) both; }
     .b1{animation-delay:.40s} .b2{animation-delay:.55s}
     .b3{animation-delay:.50s} .b4{animation-delay:.60s} .b5{animation-delay:.65s}
  
-    /* Dots */
     .dot { animation: dot-pulse 2.5s ease-in-out infinite; }
     .d1{animation-delay:.3s}  .d2{animation-delay:.6s}  .d3{animation-delay:.9s}
     .d4{animation-delay:.2s}  .d5{animation-delay:.5s}  .d6{animation-delay:.8s}
     .d7{animation-delay:1.0s}
  
-    /* Lines */
     .ld { stroke-dasharray:400; stroke-dashoffset:400; animation: line-draw 1.8s var(--ease-soft) forwards; }
     .l1{animation-delay:1.0s} .l2{animation-delay:1.3s}
  
@@ -224,7 +220,8 @@
       display: grid; grid-template-columns: 80px 1fr;
       padding: 3rem 0;
       width: 70vw;
-      margin:auto;
+      margin: auto;
+      border-top: 1px solid var(--border);
     }
     .project-entry:last-child { border-bottom: 1px solid var(--border); }
  
@@ -239,7 +236,6 @@
  
     .project-body { display: flex; flex-direction: column; gap: 1.25rem; }
  
-    /* embed wrapper */
     .project-embed {
       width: 100%; 
       background: var(--bg2); overflow: hidden;
@@ -305,25 +301,16 @@
   <div class="hero-right">
     <div class="hero-canvas">
       <svg viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
- 
-        <!-- Background guide rings -->
         <circle cx="240" cy="240" r="200" stroke="var(--border)" stroke-width="1" stroke-dasharray="4 8"/>
         <circle cx="240" cy="240" r="150" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 6"/>
         <circle cx="240" cy="240" r="100" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 4"/>
  
-        <!--
-          Orbit rings
-          The group is translated so its geometric centre sits at (240,240).
-          CSS transform-origin: 240px 240px then rotates the group in place.
-          Dot coordinates are expressed relative to the group's local origin.
-        -->
         <g class="orbit-cw">
           <circle cx="240" cy="40"  r="5" fill="var(--accent)"  opacity=".6"/>
           <circle cx="440" cy="240" r="3" fill="var(--accent2)" opacity=".5"/>
           <circle cx="240" cy="440" r="4" fill="var(--accent3)" opacity=".5"/>
           <circle cx="40"  cy="240" r="3" fill="var(--accent)"  opacity=".4"/>
         </g>
- 
         <g class="orbit-ccw">
           <circle cx="240" cy="90"  r="3" fill="var(--accent3)" opacity=".4"/>
           <circle cx="390" cy="240" r="2" fill="var(--accent2)" opacity=".35"/>
@@ -331,7 +318,6 @@
           <circle cx="90"  cy="240" r="2" fill="var(--accent3)" opacity=".35"/>
         </g>
  
-        <!-- Bar chart cluster (baseline at local y=80) -->
         <g transform="translate(130,280)">
           <rect class="bar b1" x="0"  y="0"  width="16" height="80" fill="var(--accent)"  opacity=".9"  rx="1"/>
           <rect class="bar b2" x="22" y="25" width="16" height="55" fill="var(--accent)"  opacity=".65" rx="1"/>
@@ -341,7 +327,6 @@
           <line x1="0" y1="80" x2="110" y2="80" stroke="var(--border)" stroke-width="1"/>
         </g>
  
-        <!-- Scatter plot cluster -->
         <g transform="translate(280,130)">
           <circle class="dot d1" cx="10" cy="60" r="4" fill="var(--accent2)" opacity=".8"/>
           <circle class="dot d2" cx="35" cy="25" r="6" fill="var(--accent)"  opacity=".7"/>
@@ -352,7 +337,6 @@
           <circle class="dot d7" cx="55" cy="75" r="3" fill="var(--accent3)" opacity=".65"/>
         </g>
  
-        <!-- Line charts -->
         <polyline class="ld l1"
           points="80,320 110,290 145,305 180,260 215,270 245,235 280,248 315,215 350,225 380,195"
           stroke="var(--accent)" stroke-width="2" fill="none" opacity=".7"/>
@@ -360,7 +344,6 @@
           points="80,340 110,330 145,345 180,310 215,325 245,295 280,308 315,278 350,290 380,265"
           stroke="var(--accent3)" stroke-width="1.5" fill="none" opacity=".4"/>
  
-        <!-- Centre emblem -->
         <circle cx="240" cy="240" r="28" fill="var(--bg2)" stroke="var(--border)" stroke-width="1"/>
         <circle cx="240" cy="240" r="24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 5" opacity=".6"/>
         <text x="240" y="237" text-anchor="middle" font-family="'Syne',sans-serif"
@@ -373,22 +356,64 @@
  
   <div class="scroll-hint">Scroll</div>
 </header>
+
 <!-- ── PROJECTS ── -->
 <section id="projects">
-  <div class="projects-header ">
+  <div class="projects-header">
     <div>
       <div class="section-label"></div>
       <h2><em>Visualizations</em></h2>
     </div>
   </div>
  
-  <div class="project-list ">
- 
-    <!-- ─ Project 01: Pizza Toppings ─ -->
+  <div class="project-list">
+
+    <!-- ─ Project 01: Music Calendar ─ -->
     <article class="project-entry">
       <div class="project-meta">
         <span class="project-num">01</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title"></h3>
+        <div class="embed-source">Music Calendar</div>
+        <div class="project-embed">
+          <object type="image/svg+xml" data="./visualizations/MusicCalendar.svg"></object>
+        </div>
+      </div>
+    </article>
 
+    <!-- ─ Project 02: Genre Bubbles ─ -->
+    <article class="project-entry">
+      <div class="project-meta">
+        <span class="project-num">02</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title"></h3>
+        <div class="embed-source">Genre Bubbles</div>
+        <div class="project-embed">
+          <object type="image/svg+xml" data="./visualizations/genre_bubles.svg"></object>
+        </div>
+      </div>
+    </article>
+
+    <!-- ─ Project 03: Genre Donut ─ -->
+    <article class="project-entry">
+      <div class="project-meta">
+        <span class="project-num">03</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title"></h3>
+        <div class="embed-source">Genre Donut</div>
+        <div class="project-embed">
+          <object type="image/svg+xml" data="./visualizations/artist_genre_donut.svg"></object>
+        </div>
+      </div>
+    </article>
+
+    <!-- ─ Project 04: Datawrapper ─ -->
+    <article class="project-entry">
+      <div class="project-meta">
+        <span class="project-num">04</span>
       </div>
       <div class="project-body">
         <h3 class="project-title"></h3>
@@ -401,11 +426,11 @@
         </div>
       </div>
     </article>
- 
-    <!-- ─ Project 02: Flourish Chart ─ -->
+
+    <!-- ─ Project 05: Flourish Chart ─ -->
     <article class="project-entry">
       <div class="project-meta">
-        <span class="project-num">02</span>
+        <span class="project-num">05</span>
       </div>
       <div class="project-body">
         <h3 class="project-title"></h3>
@@ -413,35 +438,49 @@
         <div class="project-embed">
           <div class="flourish-embed flourish-chart" data-src="visualisation/27942375">
             <script src="https://public.flourish.studio/resources/embed.js"></script>
-            <noscript><img src="https://public.flourish.studio/visualisation/27942375/thumbnail" width="100%" alt="visualization" /></noscript>
           </div>
         </div>
       </div>
     </article>
 
-    <!-- ─ Project 03: Tableau Chart ─ -->
+    <!-- ─ Project 06: Tableau Dashboard ─ -->
     <article class="project-entry">
       <div class="project-meta">
-        <span class="project-num">03</span>
+        <span class="project-num">06</span>
       </div>
-      <div class="project-embed">
+      <div class="project-body">
         <h3 class="project-title"></h3>
         <div class="embed-source">Tableau Dashboard</div>
-<div class="project-embed">
-<iframe 
-  src="https://public.tableau.com/views/MusicThroughTheAges/Main?:showVizHome=no"
-  width="100%"
-  height="900"
-  frameborder="0">
-</iframe>
-</div>        
+        <div class="project-embed">
+          <iframe 
+            src="https://public.tableau.com/views/MusicThroughTheAges/Main?:showVizHome=no"
+            width="100%"
+            height="900"
+            frameborder="0">
+          </iframe>
         </div>
+      </div>
     </article>
- 
+
+    <!-- ─ Project 07: Flourish Chart 2 ─ -->
+    <article class="project-entry">
+      <div class="project-meta">
+        <span class="project-num">07</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title"></h3>
+        <div class="embed-source">Flourish Studio</div>
+        <div class="project-embed">
+          <div class="flourish-embed flourish-chart" data-src="visualisation/28147918">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript><img src="https://public.flourish.studio/visualisation/28147918/thumbnail" width="100%" alt="visualization" /></noscript>
+          </div>
+        </div>
+      </div>
+    </article>
+
   </div>
 </section>
- 
-
 
 <!-- ── FOOTER ── -->
 <footer>
@@ -450,7 +489,7 @@
   <span>Buenos Aires, Argentina</span>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
   // Theme toggle
   const themeToggle = document.getElementById('themeToggle');
   const themeIcon   = document.getElementById('themeIcon');
@@ -476,52 +515,7 @@
     });
   }, { threshold: 0.08 });
   fadeEls.forEach(el => observer.observe(el));
- 
-  // Skill bars animation
-  const barFills = document.querySelectorAll('.skill-bar-fill');
-  const barObserver = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) { e.target.classList.add('animated'); }
-    });
-  }, { threshold: 0.5 });
-  barFills.forEach(el => barObserver.observe(el));
-  // Experience tab switching
-  const navItems    = document.querySelectorAll('.exp-nav-item');
-  const expContents = document.querySelectorAll('.exp-content');
-  navItems.forEach(item => {
-    item.addEventListener('click', () => {
-      const idx = item.dataset.exp;
-      navItems.forEach(i => i.classList.remove('active'));
-      expContents.forEach(c => c.classList.remove('active'));
-      item.classList.add('active');
-      document.getElementById('exp-' + idx).classList.add('active');
-    });
-  });
-
-
 </script>
-<script type='text/javascript'>
- var divElement = document.getElementById('viz1773626334429');
- var vizElement = divElement.getElementsByTagName('object')[0];
- if (divElement.offsetWidth > 800) {
-     vizElement.style.minWidth = '95%';
-     vizElement.style.maxWidth = '95%';
-     vizElement.style.minHeight = '95%';
-     vizElement.style.maxHeight = (divElement.offsetWidth * 0.75) + 'px';
- } else if (divElement.offsetWidth > 500) {
-     vizElement.style.minWidth = '400px';
-     vizElement.style.maxWidth = '100%';
-     vizElement.style.minHeight = '227px';
-     vizElement.style.maxHeight = (divElement.offsetWidth * 0.75) + 'px';
- } else {
-     vizElement.style.width = '100%';
-     vizElement.style.height = '727px';
- }
- var scriptElement = document.createElement('script');
- scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
- vizElement.parentNode.insertBefore(scriptElement, vizElement);  
 
-</script>
-    
 </body>
 </html>

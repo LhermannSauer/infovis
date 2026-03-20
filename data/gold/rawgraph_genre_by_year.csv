@@ -1,0 +1,288 @@
+year,genre,play_count,total_minutes,subgenre
+2014,Metal,5,14.6,Alternative Metal
+2014,Rock,1005,4158.1,Alternative Rock
+2014,Rock,266,1113.2,Classic Rock
+2014,Classical,28,139.3,Classical
+2014,Electronic,31,124.6,Electronic
+2014,Grunge,24,94.4,Grunge
+2014,Rock,20,75.6,Hard Rock
+2014,Hop,10,32.9,Hip Hop
+2014,Rock,50,168.1,Indie Rock
+2014,Pop,32,108.1,Latin Pop
+2014,Rock,63,239.7,Latin Rock
+2014,Metal,1,0.8,Metal
+2014,Pop,316,1213.4,Pop
+2014,Rock,932,3246.3,Pop Rock
+2014,Metal,8,30.9,Power Metal
+2014,Metal,4,14.2,Progressive Metal
+2014,Rock,244,1180.4,Progressive Rock
+2014,Rock,58,148.8,Punk Rock
+2014,Soundtrack,72,177.6,Soundtrack
+2015,Rock,1088,4232.8,Alternative Rock
+2015,Rock,1014,4031.5,Classic Rock
+2015,Classical,8,40.3,Classical
+2015,Electronic,59,233.8,Electronic
+2015,Folk,1,5.1,Folk
+2015,Grunge,33,110.9,Grunge
+2015,Rock,859,2525.2,Hard Rock
+2015,Hop,8,28.9,Hip Hop
+2015,Rock,75,264.2,Indie Rock
+2015,Jazz,9,28.0,Jazz
+2015,Pop,28,114.0,Latin Pop
+2015,Rock,568,2283.6,Latin Rock
+2015,Metal,35,128.4,Metal
+2015,Pop,857,2921.5,Pop
+2015,Rock,1773,6278.1,Pop Rock
+2015,Metal,36,49.7,Power Metal
+2015,Metal,66,297.3,Progressive Metal
+2015,Rock,606,2844.2,Progressive Rock
+2015,Rock,55,162.3,Punk Rock
+2015,R&B,6,29.6,R&B
+2015,Rock,4,14.3,Rock
+2015,Soundtrack,35,108.3,Soundtrack
+2015,Metal,14,58.0,Symphonic Metal
+2016,Rock,2441,6031.4,Alternative Rock
+2016,Rock,551,1743.5,Classic Rock
+2016,Classical,4,17.3,Classical
+2016,Metal,3,1.3,Doom Metal
+2016,Electronic,440,1152.4,Electronic
+2016,Grunge,101,358.0,Grunge
+2016,Rock,1894,4609.2,Hard Rock
+2016,Hop,24,79.5,Hip Hop
+2016,Rock,102,326.0,Indie Rock
+2016,Jazz,1,0.4,Jazz
+2016,Folk,2,3.8,Latin Folk
+2016,Pop,4,9.7,Latin Pop
+2016,Rock,152,415.1,Latin Rock
+2016,Metal,244,755.4,Metal
+2016,Pop,358,1016.6,Pop
+2016,Rock,1627,4406.0,Pop Rock
+2016,Post-Hardcore,36,50.5,Post-Hardcore
+2016,Post-Rock,27,58.0,Post-Rock
+2016,Metal,762,1519.1,Power Metal
+2016,Metal,483,1638.6,Progressive Metal
+2016,Rock,665,1940.1,Progressive Rock
+2016,Rock,194,460.8,Punk Rock
+2016,Rock,6,21.3,Rock
+2016,Soundtrack,291,793.1,Soundtrack
+2016,Metal,25,70.4,Symphonic Metal
+2017,Metal,15,16.6,Alternative Metal
+2017,Rock,1988,4124.8,Alternative Rock
+2017,Rock,428,847.3,Classic Rock
+2017,Classical,7,18.1,Classical
+2017,Electronic,762,1970.5,Electronic
+2017,Folk,1,0.0,Folk
+2017,Grunge,160,396.4,Grunge
+2017,Rock,497,1216.9,Hard Rock
+2017,Hop,30,83.0,Hip Hop
+2017,Rock,628,1121.4,Indie Rock
+2017,Folk,12,19.8,Latin Folk
+2017,Pop,5,8.8,Latin Pop
+2017,Rock,679,1485.3,Latin Rock
+2017,Metal,725,1755.7,Metal
+2017,Pop,1059,2475.4,Pop
+2017,Rock,1113,2350.1,Pop Rock
+2017,Post-Hardcore,26,50.5,Post-Hardcore
+2017,Post-Rock,8,11.6,Post-Rock
+2017,Metal,328,668.1,Power Metal
+2017,Metal,905,2652.3,Progressive Metal
+2017,Rock,2403,6929.6,Progressive Rock
+2017,Rock,901,1641.8,Punk Rock
+2017,R&B,13,35.0,R&B
+2017,Rock,78,191.6,Rock
+2017,Soundtrack,216,423.0,Soundtrack
+2017,Metal,262,756.9,Symphonic Metal
+2018,Metal,3,14.1,Alternative Metal
+2018,Rock,533,1436.8,Alternative Rock
+2018,Rock,123,313.9,Classic Rock
+2018,Classical,38,153.4,Classical
+2018,Electronic,246,679.7,Electronic
+2018,Folk,1,1.9,Folk
+2018,Grunge,108,304.0,Grunge
+2018,Rock,464,1556.8,Hard Rock
+2018,Hop,9,20.6,Hip Hop
+2018,Rock,88,204.4,Indie Rock
+2018,Jazz,1,2.8,Jazz
+2018,Rock,336,954.7,Latin Rock
+2018,Metal,373,1070.5,Metal
+2018,Pop,202,568.8,Pop
+2018,Rock,364,944.1,Pop Rock
+2018,Post-Hardcore,7,14.7,Post-Hardcore
+2018,Post-Rock,2,0.0,Post-Rock
+2018,Metal,262,784.6,Power Metal
+2018,Metal,723,3157.7,Progressive Metal
+2018,Rock,913,3416.2,Progressive Rock
+2018,Rock,77,130.8,Punk Rock
+2018,R&B,66,203.1,R&B
+2018,Rock,37,104.2,Rock
+2018,Soundtrack,69,137.3,Soundtrack
+2018,Metal,87,369.4,Symphonic Metal
+2019,Metal,31,101.1,Alternative Metal
+2019,Rock,1179,2736.4,Alternative Rock
+2019,Rock,245,594.8,Classic Rock
+2019,Classical,319,1193.1,Classical
+2019,Country,1,3.9,Country
+2019,Metal,1,6.4,Doom Metal
+2019,Electronic,428,1162.5,Electronic
+2019,Grunge,357,906.8,Grunge
+2019,Rock,1279,3616.6,Hard Rock
+2019,Hop,5,14.8,Hip Hop
+2019,Rock,233,525.3,Indie Rock
+2019,Rock,400,950.9,Latin Rock
+2019,Metal,651,1662.4,Metal
+2019,Pop,657,1529.1,Pop
+2019,Rock,701,1505.5,Pop Rock
+2019,Post-Hardcore,2,7.2,Post-Hardcore
+2019,Post-Rock,11,28.1,Post-Rock
+2019,Metal,325,784.6,Power Metal
+2019,Metal,1288,4251.2,Progressive Metal
+2019,Rock,1384,4492.1,Progressive Rock
+2019,Rock,100,145.3,Punk Rock
+2019,R&B,21,36.3,R&B
+2019,Rock,26,67.2,Rock
+2019,Soundtrack,305,944.6,Soundtrack
+2019,Metal,155,407.4,Symphonic Metal
+2020,Metal,19,59.6,Alternative Metal
+2020,Rock,651,1932.4,Alternative Rock
+2020,Blues,22,73.4,Blues
+2020,Rock,161,418.4,Classic Rock
+2020,Classical,148,480.4,Classical
+2020,Electronic,172,450.8,Electronic
+2020,Grunge,212,655.3,Grunge
+2020,Rock,913,3418.5,Hard Rock
+2020,Hop,1,3.0,Hip Hop
+2020,Rock,44,146.8,Indie Rock
+2020,Rock,144,332.8,Latin Rock
+2020,Metal,168,607.2,Metal
+2020,Pop,1602,4102.9,Pop
+2020,Rock,598,1378.9,Pop Rock
+2020,Post-Hardcore,2,0.6,Post-Hardcore
+2020,Post-Rock,4,0.8,Post-Rock
+2020,Metal,204,707.5,Power Metal
+2020,Metal,528,2500.8,Progressive Metal
+2020,Rock,560,1826.8,Progressive Rock
+2020,Rock,176,370.6,Punk Rock
+2020,R&B,13,34.6,R&B
+2020,Rock,16,50.4,Rock
+2020,Soundtrack,181,473.6,Soundtrack
+2020,Metal,125,443.0,Symphonic Metal
+2021,Metal,11,38.8,Alternative Metal
+2021,Rock,357,1014.4,Alternative Rock
+2021,Rock,339,979.6,Classic Rock
+2021,Classical,32,95.7,Classical
+2021,Metal,1,0.4,Doom Metal
+2021,Electronic,153,466.2,Electronic
+2021,Grunge,94,258.6,Grunge
+2021,Rock,391,1229.8,Hard Rock
+2021,Hop,5,7.3,Hip Hop
+2021,Rock,179,498.9,Indie Rock
+2021,Pop,1,0.0,Latin Pop
+2021,Rock,265,712.3,Latin Rock
+2021,Metal,170,551.5,Metal
+2021,Pop,2436,5793.0,Pop
+2021,Rock,353,908.2,Pop Rock
+2021,Post-Rock,2,0.0,Post-Rock
+2021,Metal,36,129.5,Power Metal
+2021,Metal,421,1867.0,Progressive Metal
+2021,Rock,680,2836.8,Progressive Rock
+2021,Rock,42,77.1,Punk Rock
+2021,R&B,8,19.2,R&B
+2021,Rock,29,112.4,Rock
+2021,Soundtrack,88,264.3,Soundtrack
+2021,Metal,100,390.0,Symphonic Metal
+2022,Rock,162,407.7,Alternative Rock
+2022,Rock,158,372.5,Classic Rock
+2022,Classical,244,471.5,Classical
+2022,Electronic,33,128.8,Electronic
+2022,Grunge,42,144.4,Grunge
+2022,Rock,175,553.2,Hard Rock
+2022,Rock,23,37.5,Indie Rock
+2022,Rock,163,571.5,Latin Rock
+2022,Metal,58,225.1,Metal
+2022,Pop,504,1263.0,Pop
+2022,Rock,188,574.2,Pop Rock
+2022,Metal,113,436.7,Power Metal
+2022,Metal,129,654.3,Progressive Metal
+2022,Rock,443,1447.5,Progressive Rock
+2022,Rock,62,162.2,Punk Rock
+2022,R&B,2,1.2,R&B
+2022,Rock,47,138.2,Rock
+2022,Soundtrack,26,92.0,Soundtrack
+2022,Metal,36,157.0,Symphonic Metal
+2023,Metal,14,44.1,Alternative Metal
+2023,Rock,437,1342.8,Alternative Rock
+2023,Rock,120,412.6,Classic Rock
+2023,Classical,35,155.1,Classical
+2023,Electronic,88,283.9,Electronic
+2023,Grunge,110,385.2,Grunge
+2023,Rock,276,983.0,Hard Rock
+2023,Hop,275,849.7,Hip Hop
+2023,Rock,62,183.1,Indie Rock
+2023,Rock,230,703.7,Latin Rock
+2023,Metal,227,711.9,Metal
+2023,Pop,748,2021.9,Pop
+2023,Rock,333,932.6,Pop Rock
+2023,Metal,38,164.5,Power Metal
+2023,Metal,178,833.7,Progressive Metal
+2023,Rock,151,553.5,Progressive Rock
+2023,Rock,23,70.9,Punk Rock
+2023,R&B,16,47.4,R&B
+2023,Rock,19,70.7,Rock
+2023,Soundtrack,28,34.8,Soundtrack
+2023,Metal,20,79.9,Symphonic Metal
+2024,Metal,1,3.6,Alternative Metal
+2024,Rock,337,1014.9,Alternative Rock
+2024,Rock,147,533.0,Classic Rock
+2024,Classical,30,114.3,Classical
+2024,Country,2,6.6,Country
+2024,Electronic,48,100.7,Electronic
+2024,Grunge,154,563.6,Grunge
+2024,Rock,284,988.0,Hard Rock
+2024,Hop,34,121.4,Hip Hop
+2024,Rock,156,540.3,Indie Rock
+2024,Folk,9,23.7,Latin Folk
+2024,Pop,1,2.0,Latin Pop
+2024,Rock,250,780.5,Latin Rock
+2024,Metal,330,1255.2,Metal
+2024,Pop,574,1715.3,Pop
+2024,Rock,213,626.6,Pop Rock
+2024,Post-Rock,2,3.9,Post-Rock
+2024,Metal,87,309.4,Power Metal
+2024,Metal,487,2312.4,Progressive Metal
+2024,Rock,242,921.2,Progressive Rock
+2024,Rock,50,116.4,Punk Rock
+2024,R&B,11,38.0,R&B
+2024,Rock,26,92.3,Rock
+2024,Soundtrack,13,39.2,Soundtrack
+2024,Metal,53,182.2,Symphonic Metal
+2025,Metal,1,0.0,Alternative Metal
+2025,Rock,99,361.0,Alternative Rock
+2025,Blues,1,5.0,Blues
+2025,Rock,78,312.0,Classic Rock
+2025,Classical,44,134.8,Classical
+2025,Electronic,110,380.0,Electronic
+2025,Grunge,27,103.4,Grunge
+2025,Rock,68,309.1,Hard Rock
+2025,Hop,1,4.2,Hip Hop
+2025,Rock,15,55.0,Indie Rock
+2025,Folk,18,54.5,Latin Folk
+2025,Rock,46,124.1,Latin Rock
+2025,Metal,74,297.4,Metal
+2025,Pop,297,1033.4,Pop
+2025,Rock,30,108.6,Pop Rock
+2025,Post-Hardcore,1,2.9,Post-Hardcore
+2025,Metal,6,9.7,Power Metal
+2025,Metal,918,4492.1,Progressive Metal
+2025,Rock,100,584.9,Progressive Rock
+2025,Rock,47,103.1,Punk Rock
+2025,R&B,14,68.9,R&B
+2025,Rock,5,17.5,Rock
+2025,Soundtrack,5,15.6,Soundtrack
+2025,Metal,8,34.3,Symphonic Metal
+2026,Rock,15,69.9,Classic Rock
+2026,Rock,11,64.3,Hard Rock
+2026,Pop,15,55.4,Pop
+2026,Metal,52,219.8,Power Metal
+2026,Metal,42,192.0,Progressive Metal
+2026,Rock,1,5.7,Rock
+2026,Metal,1,0.9,Symphonic Metal

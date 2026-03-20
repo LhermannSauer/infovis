@@ -1,0 +1,246 @@
+genre,artist,play_count,total_minutes,subgenre
+Metal,Deftones,100,292.5,Alternative Metal
+Rock,A Perfect Circle,77,148.3,Alternative Rock
+Rock,Beck,5,7.6,Alternative Rock
+Rock,Blind Melon,499,1191.3,Alternative Rock
+Rock,Cage The Elephant,95,154.8,Alternative Rock
+Rock,Dredg,6,16.0,Alternative Rock
+Rock,Foo Fighters,204,688.1,Alternative Rock
+Rock,Linkin Park,763,1771.5,Alternative Rock
+Rock,Muse,3093,10562.1,Alternative Rock
+Rock,Pixies,10,22.1,Alternative Rock
+Rock,Placebo,442,1060.3,Alternative Rock
+Rock,Poets of the Fall,680,1692.0,Alternative Rock
+Rock,Radiohead,682,1827.6,Alternative Rock
+Rock,Red Hot Chili Peppers,481,1760.3,Alternative Rock
+Rock,Royal Blood,42,110.3,Alternative Rock
+Rock,The Rasmus,1411,3177.3,Alternative Rock
+Rock,The Smashing Pumpkins,71,171.6,Alternative Rock
+Rock,Thirty Seconds To Mars,1712,4427.3,Alternative Rock
+Blues,B.B. King,23,78.4,Blues
+Rock,AC/DC,85,259.1,Classic Rock
+Rock,Aerosmith,289,993.4,Classic Rock
+Rock,Black Sabbath,54,162.0,Classic Rock
+Rock,Blue Öyster Cult,12,46.0,Classic Rock
+Rock,Bon Jovi,288,1043.2,Classic Rock
+Rock,David Bowie,53,182.4,Classic Rock
+Rock,Deep Purple,41,102.4,Classic Rock
+Rock,Fleetwood Mac,11,31.0,Classic Rock
+Rock,Foreigner,11,33.4,Classic Rock
+Rock,Guns N' Roses,289,1226.1,Classic Rock
+Rock,Iggy Pop,8,21.8,Classic Rock
+Rock,Led eppelin,144,594.2,Classic Rock
+Rock,Lenny Kravit,580,1655.4,Classic Rock
+Rock,Poison,9,18.4,Classic Rock
+Rock,Queen,1462,4715.7,Classic Rock
+Rock,Scorpions,9,31.0,Classic Rock
+Rock,The Beatles,135,232.0,Classic Rock
+Rock,The Rolling Stones,144,347.1,Classic Rock
+Rock,The Who,11,32.8,Classic Rock
+Classical,Frédéric Chopin,760,2304.9,Classical
+Classical,Johann Sebastian Bach,92,237.8,Classical
+Classical,Ludwig van Beethoven,37,225.2,Classical
+Classical,Wolfgang Amadeus Moart,41,208.2,Classical
+Metal,Saturnus,5,8.1,Doom Metal
+Electronic,Aquilo,16,39.9,Electronic
+Electronic,Boards of Canada,8,13.1,Electronic
+Electronic,Boy Epic,7,22.7,Electronic
+Electronic,Chet Faker,90,334.6,Electronic
+Electronic,Daft Punk,40,152.3,Electronic
+Electronic,Depeche Mode,608,2005.4,Electronic
+Electronic,Hurts,297,644.2,Electronic
+Electronic,IAMX,1373,3486.9,Electronic
+Electronic,M83,13,26.4,Electronic
+Electronic,Magic Sword,18,83.1,Electronic
+Electronic,Major Laer,10,12.6,Electronic
+Electronic,Oneohtrix Point Never,7,11.6,Electronic
+Electronic,Skrillex,39,147.7,Electronic
+Electronic,The Prodigy,5,11.8,Electronic
+Electronic,Tiësto,9,33.6,Electronic
+Electronic,Trent Renor,20,85.4,Electronic
+Grunge,Alice In Chains,138,413.4,Grunge
+Grunge,Chris Cornell,377,954.1,Grunge
+Grunge,Nirvana,484,1345.1,Grunge
+Grunge,Pearl Jam,251,967.2,Grunge
+Grunge,Soundgarden,172,601.2,Grunge
+Rock,Adema,9,18.1,Hard Rock
+Rock,Alter Bridge,311,1145.9,Hard Rock
+Rock,Avenged Sevenfold,2229,8557.6,Hard Rock
+Rock,Breaking Benjamin,78,213.4,Hard Rock
+Rock,Disturbed,48,162.5,Hard Rock
+Rock,Ends With A Bullet,10,7.9,Hard Rock
+Rock,Evanescence,176,483.3,Hard Rock
+Rock,Godsmack,27,46.8,Hard Rock
+Rock,Hoobastank,24,52.0,Hard Rock
+Rock,KISS,6,21.8,Hard Rock
+Rock,Saliva,70,205.9,Hard Rock
+Rock,Seether,210,536.7,Hard Rock
+Rock,Shinedown,3616,9057.5,Hard Rock
+Rock,Three Days Grace,302,605.9,Hard Rock
+Rock,Van Halen,11,26.6,Hard Rock
+Hop,Eminem,363,1160.6,Hip Hop
+Hop,Kanye West,6,14.3,Hip Hop
+Hop,Kendrick Lamar,11,19.4,Hip Hop
+Hop,Post Malone,9,18.5,Hip Hop
+Hop,Will Smith,6,19.6,Hip Hop
+Rock,Arcade Fire,23,65.7,Indie Rock
+Rock,Arctic Monkeys,934,2102.7,Indie Rock
+Rock,Elliott Smith,58,70.0,Indie Rock
+Rock,Fran Ferdinand,20,54.4,Indie Rock
+Rock,Interpol,83,206.5,Indie Rock
+Rock,Kasabian,33,86.1,Indie Rock
+Rock,Keane,33,93.8,Indie Rock
+Rock,Oasis,224,745.1,Indie Rock
+Rock,Sam Fender,7,9.1,Indie Rock
+Rock,Supergrass,12,23.4,Indie Rock
+Rock,The Killers,183,496.4,Indie Rock
+Rock,Travis,31,82.0,Indie Rock
+Jazz,Tony Bennett,10,28.3,Jazz
+Folk,Facundo Toro,27,78.3,Latin Folk
+Folk,Onda Vaga,14,23.6,Latin Folk
+Pop,Abel Pintos,15,46.4,Latin Pop
+Pop,Alejandro San,32,135.6,Latin Pop
+Pop,Ricky Martin,10,24.9,Latin Pop
+Pop,Romeo Santos,7,22.5,Latin Pop
+Pop,Thalia,5,12.7,Latin Pop
+Rock,Barco,48,88.5,Latin Rock
+Rock,Bersuit Vergarabat,139,435.4,Latin Rock
+Rock,Ciro y los Persas,22,94.0,Latin Rock
+Rock,Connor Questa,21,55.0,Latin Rock
+Rock,Eruca Sativa,343,632.6,Latin Rock
+Rock,Fito Pae,1354,3689.8,Latin Rock
+Rock,Gustavo Cerati,396,1417.3,Latin Rock
+Rock,JAF,6,26.1,Latin Rock
+Rock,La Renga,44,80.3,Latin Rock
+Rock,Las Pastillas del Abuelo,6,14.1,Latin Rock
+Rock,No Te Va Gustar,131,441.3,Latin Rock
+Rock,Patricio Rey y sus Redonditos de Ricota,114,271.4,Latin Rock
+Rock,Pork,305,1181.9,Latin Rock
+Rock,Soda Stereo,358,1120.1,Latin Rock
+Rock,ambayonny,7,6.1,Latin Rock
+Metal,Arch Enemy,13,21.5,Metal
+Metal,Bring Me The Horion,21,65.0,Metal
+Metal,Children Of Bodom,164,440.4,Metal
+Metal,Ghost,30,108.0,Metal
+Metal,In This Moment,699,1505.7,Metal
+Metal,Iron Maiden,332,1310.6,Metal
+Metal,Korn,244,559.6,Metal
+Metal,Lindemann,19,44.3,Metal
+Metal,Megadeth,430,1324.4,Metal
+Metal,Metallica,490,1997.9,Metal
+Metal,Slipknot,295,854.6,Metal
+Metal,System Of A Down,315,766.2,Metal
+Pop,ABBA,34,16.9,Pop
+Pop,AYN,9,15.4,Pop
+Pop,Allie X,17,33.3,Pop
+Pop,Ariana Grande,844,2147.3,Pop
+Pop,Backstreet Boys,67,204.2,Pop
+Pop,Ben Platt,93,246.9,Pop
+Pop,Beyoncé,14,23.6,Pop
+Pop,Billie Eilish,2150,5181.7,Pop
+Pop,Britney Spears,89,213.3,Pop
+Pop,Bruno Mars,64,180.6,Pop
+Pop,Dead Or Alive,15,46.1,Pop
+Pop,Dua Lipa,98,253.1,Pop
+Pop,Ed Sheeran,1068,2834.4,Pop
+Pop,Ellie Goulding,16,40.1,Pop
+Pop,FINNEAS,854,2182.3,Pop
+Pop,George Michael,37,108.2,Pop
+Pop,Halsey,8,14.2,Pop
+Pop,James Bay,562,1461.6,Pop
+Pop,Katy Perry,66,182.9,Pop
+Pop,Lady Gaga,92,232.4,Pop
+Pop,Lana Del Rey,263,913.8,Pop
+Pop,Lorde,513,1313.0,Pop
+Pop,Mark Ronson,13,45.1,Pop
+Pop,Michael Jackson,739,2468.1,Pop
+Pop,Miley Cyrus,691,1911.7,Pop
+Pop,Nessa Barrett,48,95.8,Pop
+Pop,Nick Jonas,8,8.8,Pop
+Pop,Paul Young,5,3.4,Pop
+Pop,Pet Shop Boys,12,28.6,Pop
+Pop,Rick Astley,98,281.7,Pop
+Pop,Rihanna,45,106.3,Pop
+Pop,Savage Garden,7,23.2,Pop
+Pop,Taylor Swift,909,2660.9,Pop
+Pop,Tears For Fears,18,70.7,Pop
+Pop,The Cardigans,9,33.2,Pop
+Pop,The Smiths,18,48.8,Pop
+Pop,VÉRITÉ,11,22.2,Pop
+Rock,Avril Lavigne,74,160.6,Pop Rock
+Rock,Bastille,53,145.1,Pop Rock
+Rock,Boyce Avenue,155,323.7,Pop Rock
+Rock,Coldplay,177,675.1,Pop Rock
+Rock,Fall Out Boy,110,326.3,Pop Rock
+Rock,Imagine Dragons,2319,5429.4,Pop Rock
+Rock,Maroon 5,3322,10355.7,Pop Rock
+Rock,OneRepublic,61,187.3,Pop Rock
+Rock,Panic! At The Disco,549,1335.2,Pop Rock
+Rock,Paramore,64,174.4,Pop Rock
+Rock,Robbie Williams,930,3074.0,Pop Rock
+Rock,The Script,32,89.2,Pop Rock
+Rock,Twenty One Pilots,151,441.2,Pop Rock
+Rock,X Ambassadors,227,541.4,Pop Rock
+Post-Hardcore,Circa Survive,22,52.3,Post-Hardcore
+Post-Hardcore,Famous Last Words,17,42.4,Post-Hardcore
+Post-Hardcore,VersaEmerge,35,31.6,Post-Hardcore
+Post-Rock,Klimt 1918,56,102.5,Post-Rock
+Metal,Blind Guardian,13,43.6,Power Metal
+Metal,Rhapsody Of Fire,7,23.5,Power Metal
+Metal,Sonata Arctica,2150,5503.1,Power Metal
+Metal,Stratovarius,79,229.7,Power Metal
+Metal,Van Canto,5,8.4,Power Metal
+Metal,Dream Theater,1642,7177.6,Progressive Metal
+Metal,Haken,437,1853.4,Progressive Metal
+Metal,Klone,6,20.2,Progressive Metal
+Metal,Leprous,2847,11579.1,Progressive Metal
+Metal,Nevermore,14,34.8,Progressive Metal
+Metal,Opeth,1204,4109.9,Progressive Metal
+Metal,Scale The Summit,19,70.7,Progressive Metal
+Rock,Genesis,574,2136.8,Progressive Rock
+Rock,Gentle Giant,132,206.0,Progressive Rock
+Rock,Peter Gabriel,55,209.0,Progressive Rock
+Rock,Pink Floyd,1051,3088.7,Progressive Rock
+Rock,Porcupine Tree,2053,7523.9,Progressive Rock
+Rock,Rush,238,819.0,Progressive Rock
+Rock,Steven Wilson,917,3346.0,Progressive Rock
+Rock,Thank You Scientist,52,188.6,Progressive Rock
+Rock,The Dear Hunter,827,2315.0,Progressive Rock
+Rock,The Pineapple Thief,2393,8717.1,Progressive Rock
+Rock,Transatlantic,8,18.6,Progressive Rock
+Rock,Yes,87,381.9,Progressive Rock
+Rock,Bad Religion,10,20.4,Punk Rock
+Rock,Good Charlotte,17,31.2,Punk Rock
+Rock,Green Day,222,505.6,Punk Rock
+Rock,NOFX,50,79.0,Punk Rock
+Rock,Ramones,164,314.3,Punk Rock
+Rock,Rise Against,42,116.8,Punk Rock
+Rock,Sum 41,401,737.5,Punk Rock
+Rock,The Offspring,149,256.3,Punk Rock
+Rock,blink-182,727,1527.1,Punk Rock
+R&B,Philip Bailey,16,72.6,R&B
+R&B,The Weeknd,151,427.3,R&B
+Rock,Fleetwood Mac,7,22.6,Rock
+Rock,HIM,7,23.4,Rock
+Rock,Harry Styles,120,391.3,Rock
+Rock,Kings of Leon,58,156.9,Rock
+Rock,No Doubt,18,68.2,Rock
+Rock,Stone Sour,56,162.8,Rock
+Rock,The Smiths,20,45.2,Rock
+Soundtrack,Alexandre Desplat,48,97.1,Soundtrack
+Soundtrack,Dario Marianelli,111,285.2,Soundtrack
+Soundtrack,Gustavo Santaolalla,32,67.8,Soundtrack
+Soundtrack,Hans immer,242,757.4,Soundtrack
+Soundtrack,Howard Shore,117,394.8,Soundtrack
+Soundtrack,James Newton Howard,23,61.5,Soundtrack
+Soundtrack,John Williams,174,379.8,Soundtrack
+Soundtrack,Les Friction,233,597.6,Soundtrack
+Soundtrack,Lorne Balfe,35,58.7,Soundtrack
+Soundtrack,Ramin Djawadi,39,103.4,Soundtrack
+Soundtrack,Thomas Bergersen,188,478.2,Soundtrack
+Soundtrack,Two Steps from Hell,43,133.0,Soundtrack
+Soundtrack,Yann Tiersen,44,89.0,Soundtrack
+Metal,Edenbridge,7,26.3,Symphonic Metal
+Metal,Epica,226,608.0,Symphonic Metal
+Metal,Kamelot,36,60.9,Symphonic Metal
+Metal,Nightwish,617,2254.1,Symphonic Metal
