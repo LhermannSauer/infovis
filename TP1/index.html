@@ -42,7 +42,7 @@
       position: absolute;
       z-index: 0;
       pointer-events: none;
-      opacity: 0.05;
+      opacity: 0.07;
       background-size: contain;
       background-repeat: no-repeat;
     }
@@ -72,7 +72,7 @@
 
     @media (max-width: 768px) {
       .voronoi-strip.left,
-      .voronoi-strip.right { width: 10vw; opacity: 0.035; }
+      .voronoi-strip.right { width: 10vw; opacity: 0.05; }
     }
 
     /* --- Sections --- */
@@ -84,7 +84,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 4rem 4rem 3rem;
+      padding: 2.5rem 4rem 2rem;
       position: relative;
       z-index: 1;
     }
@@ -116,7 +116,7 @@
       line-height: 1.7;
       text-align: center;
       max-width: 650px;
-      margin: 0 auto 2rem;
+      margin: 0 auto 0.75rem;
       color: var(--text-muted);
     }
 
@@ -139,10 +139,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 1.5rem;
+      margin-top: 0.5rem;
       flex: 1;
       min-height: 0;
-      max-height: 60vh;
+      max-height: 65vh;
       overflow: hidden;
     }
 
@@ -157,18 +157,18 @@
     .visual-wrapper iframe {
       border: none;
       border-radius: 8px;
-      max-height: 60vh;
+      max-height: 100%;
     }
 
     .visual-wrapper .flourish-embed {
       width: 100%;
-      max-height: 60vh;
+      max-height: 100%;
       overflow: hidden;
     }
 
     .visual-wrapper .tableauPlaceholder {
       width: 100%;
-      max-height: 60vh;
+      max-height: 100%;
       overflow: hidden;
     }
 
@@ -584,7 +584,7 @@
       m&aacute;s escuchados a lo largo de la d&eacute;cada.
     </p>
     <div class="visual-wrapper">
-<iframe src='https://flo.uri.sh/visualisation/28253995/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+<iframe src='https://flo.uri.sh/visualisation/28253995/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:60vh;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
     </div>
   </section>
 
@@ -622,25 +622,7 @@
       2020&ndash;2022 vs 2023&ndash;2025.
     </p>
     <div class="visual-wrapper">
-      <div class="tableauPlaceholder" id="viz1774671639356" style="position:relative; width:100%; max-width:900px;">
-        <noscript><a href="#"><img alt="Top 7 Musical Keys by Listening Period" src="https://public.tableau.com/static/images/Mu/MusicThroughTheAges/ModesandKeys/1_rss.png" style="border:none" /></a></noscript>
-        <object class="tableauViz" style="display:none;">
-          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
-          <param name="embed_code_version" value="3" />
-          <param name="site_root" value="" />
-          <param name="name" value="MusicThroughTheAges/ModesandKeys" />
-          <param name="tabs" value="no" />
-          <param name="toolbar" value="yes" />
-          <param name="static_image" value="https://public.tableau.com/static/images/Mu/MusicThroughTheAges/ModesandKeys/1.png" />
-          <param name="animate_transition" value="yes" />
-          <param name="display_static_image" value="yes" />
-          <param name="display_spinner" value="yes" />
-          <param name="display_overlay" value="yes" />
-          <param name="display_count" value="yes" />
-          <param name="language" value="en-GB" />
-          <param name="filter" value="publish=yes" />
-        </object>
-      </div>
+      <div class='tableauPlaceholder' id='viz1774701172421' style='position: relative'><noscript><a href='#'><img alt='Top 7 Musical Keys by Listening Period (2020–2022 vs 2023–2025)  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ke&#47;KeyArtist&#47;ModesandKeys&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='KeyArtist&#47;ModesandKeys' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ke&#47;KeyArtist&#47;ModesandKeys&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1774701172421');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height='60vh';                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     </div>
   </section>
 
@@ -655,26 +637,7 @@
       a lo largo del tiempo.
     </p>
     <div class="visual-wrapper">
-      <div class="tableauPlaceholder" id="viz1774671788891" style="position:relative; width:100%; max-width:1200px;">
-        <noscript><a href="#"><img alt="Dashboard 3" src="https://public.tableau.com/static/images/Mu/MusicThroughTheAges/Dashboard3/1_rss.png" style="border:none" /></a></noscript>
-        <object class="tableauViz" style="display:none;">
-          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
-          <param name="embed_code_version" value="3" />
-          <param name="site_root" value="" />
-          <param name="name" value="MusicThroughTheAges/Dashboard3" />
-          <param name="tabs" value="no" />
-          <param name="toolbar" value="yes" />
-          <param name="static_image" value="https://public.tableau.com/static/images/Mu/MusicThroughTheAges/Dashboard3/1.png" />
-          <param name="animate_transition" value="yes" />
-          <param name="display_static_image" value="yes" />
-          <param name="display_spinner" value="yes" />
-          <param name="display_overlay" value="yes" />
-          <param name="display_count" value="yes" />
-          <param name="language" value="en-GB" />
-          <param name="filter" value="publish=yes" />
-        </object>
-      </div>
-    </div>
+        <div class='tableauPlaceholder' id='viz1774700904382' style='position: relative'><noscript><a href='#'><img alt='Dashboard 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MusicThroughTheAges&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MusicThroughTheAges&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MusicThroughTheAges&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1774700904382');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height='60vh';                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
   </section>
 
   <!-- 9. END / CTA -->
